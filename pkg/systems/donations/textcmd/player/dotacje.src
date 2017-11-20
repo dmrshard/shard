@@ -1,0 +1,39 @@
+use uo;
+use util;
+
+include ":donations:common";
+include "include/player/target";
+
+var who;
+program dotacje(_who,text)
+  
+  who := _who;
+  if(!text)
+    var Royals := who.acct.GetProp("Royals");
+    if(Royals)
+      SendSysMessage(who, "Dotacje: " + Royals.donation + " PLN", FONT_NORMAL, COLOR_BLUE);
+      SendSysMessage(who, "Krolewskie monety: " + Royals.coins, FONT_NORMAL, COLOR_BLUE);
+    else
+      SendSysMessage(who, "Brak informacji o dotacjach.", FONT_NORMAL, COLOR_GREEN);
+    endif
+    return;
+  endif
+  text := splitwords(text);
+  
+  case(text[1])
+    "rpd": DeathRune();
+    default: SendSysMessage(who, ".dotacje ?", FONT_NORMAL, COLOR_RED);
+  endcase
+
+endprogram
+
+function DeathRune()
+
+  foreach item in EnumerateItemsInContainer(who.backpack)
+    if(item.objtype == UOBJ_DONATE_DEATHRUNE)
+      UseItem(item,who);
+      return;
+    endif
+  endforeach;
+  
+endfunction

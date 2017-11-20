@@ -1,0 +1,44 @@
+#
+#  DATASTORE.TXT: DataStore Data
+#
+
+DataFile
+{
+	Descriptor	:crafting:economy
+	Name	economy
+	Package	crafting
+	Flags	0
+	Version	3
+	OldVersion	3
+}
+
+DataFile
+{
+	Descriptor	:eventcore:data
+	Name	data
+	Package	eventcore
+	Flags	0
+	Version	1
+	OldVersion	1
+}
+
+DataFile
+{
+	Descriptor	:npcguilds:npcguilds
+	Name	npcguilds
+	Package	npcguilds
+	Flags	0
+	Version	1
+	OldVersion	1
+}
+
+DataFile
+{
+	Descriptor	:tips:tipdata
+	Name	tipdata
+	Package	tips
+	Flags	0
+	Version	1
+	OldVersion	1
+}
+

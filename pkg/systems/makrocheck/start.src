@@ -1,0 +1,15 @@
+//-----------------------------------------------------------------------------
+
+include "include/start";
+include "include/const/misc";
+
+//-----------------------------------------------------------------------------
+
+program StartUp()
+
+  AddGlobCtrlScript(MAKROCHECK_SCNAME, "Makro Check");
+  StartGlobCtrlScript(MAKROCHECK_SCNAME);
+
+endprogram
+
+//-----------------------------------------------------------------------------

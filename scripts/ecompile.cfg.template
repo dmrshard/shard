@@ -1,0 +1,15 @@
+ModuleDirectory 	    scripts/modules
+IncludeDirectory 	    scripts
+PolScriptRoot		    scripts
+PackageRoot		        pkg
+GenerateListing         0
+GenerateDebugInfo       0
+GenerateDebugTextInfo   0
+DisplayWarnings         0
+CompileAspPages         0
+AutoCompileByDefault    1
+UpdateOnlyOnAutoCompile 1
+OnlyCompileUpdatedScripts 1
+DisplaySummary         1
+GenerateDependencyInfo 1
+DisplayUpToDateScripts 0

@@ -1,0 +1,63 @@
+//-----------------------------------------------------------------------------
+
+include "../potion";
+
+//-----------------------------------------------------------------------------
+
+program UseAggroOil(who, potion)
+  
+  var Oiled_shields;
+  var Oiled := struct;
+
+  if(!StandardItemCheck(who,potion,NO_COMBAT_CHECK))
+    return;
+  endif
+
+  SendSysMessage(who, "Wybierz tarcze do nasmarowania.",FONT_NORMAL,COLOR_GREEN);
+  var item := ObjTarget(who);
+
+  var ItemCfg := ReadConfigFile(ITEMS_CFG);
+  
+  if(!ItemCfg[item.objtype].Shield)
+    SendSysMessage(who, "To nie jest tarcza!",FONT_NORMAL,COLOR_RED);  
+    return;
+  endif
+
+  if(IsOiled(item))
+    SendSysMessage(who, "Ta tarcza jest juz naoliwiona!",FONT_NORMAL,COLOR_RED);  
+    return;
+  else
+    PlaySoundEffect(who,0x5b0);    
+    sleepms(800);
+    PlaySoundEffect(who,0x5b0);
+    SendSysMessage(who, "Naoliwil"+ggm(who,3)+" tarcze!",FONT_NORMAL,COLOR_GREEN);  
+  endif
+  
+  SetToolTipProp(item, "Natarta olejem", GetPotionName(potion.objtype));
+
+  if(!EmptyBottle(who,potion,1))
+    return;
+  endif
+
+  if(potion.objtype == UOBJ_AGGRO_OIL_POTION)
+    Oiled.+level := 4;
+    Oiled.+time := readgameclock();
+    SetObjProperty(item, "Oiled", Oiled);
+  else 
+    Oiled.+level := 3;
+    Oiled.+time := readgameclock();
+    SetObjProperty(item, "Oiled", Oiled);
+  endif
+
+  Oiled_shields := GetGlobalProperty("OiledShields");
+
+  if(!Oiled_shields)
+    Oiled_shields := array;
+  endif
+
+  Oiled_shields.append(item.serial);
+  SetGlobalProperty("OiledShields", Oiled_Shields);
+
+  start_script(":combat:shield_oil_control", item);  
+endprogram
+

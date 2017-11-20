@@ -1,0 +1,163 @@
+#
+#  NPCS.TXT: Nonplayer-Character Data
+#
+#  If you delete this file to perform an NPC wipe,
+#  be sure to also delete NPCEQUIP.TXT
+#
+
+NPC akashita
+{
+	Name	Aka-shita
+	Serial	0x4
+	ObjType	0x105
+	Graphic	0x105
+	Color	0x4001
+	X	4547
+	Y	1334
+	Z	8
+	Facing	5
+	Revision	0
+	Realm	britannia
+	CProp	AggroTable d1:i2a2:i12972i0
+	CProp	AiSerial i4
+	CProp	Anchor a5:i4545i1329i8i10S9:britannia
+	CProp	At_Tactics a2:i525120i0
+	CProp	At_Wrestling a2:i787264i0
+	CProp	Cag_0x2 i898
+	CProp	Created i2
+	CProp	CreatedAt i12970
+	CProp	Flags i24
+	CProp	Graphic i261
+	CProp	LastSkillUse a3:S7:Tacticsi1510978726S25:RP: 320 WA: 525120 SK: 90
+	CProp	OnHit S2:MP
+	CProp	SetColor i16385
+	CProp	poison_strength i10
+	TrueColor	0x4001
+	TrueObjtype	0x105
+	Gender	0
+	Race	0
+	Hidden	1
+	Strength	255
+	Intelligence	15
+	Dexterity	105
+	Hiding	100
+	MagicResistance	95
+	Tactics	90
+	Wrestling	95
+	Life	450
+	Mana	15
+	Stamina	100
+	CreatedAt	0
+	Murderer	1
+	AR	40
+	script	killpcs
+	RunSpeed	135
+}
+
+Item
+{
+	Serial	0x40001401
+	ObjType	0x966b
+	Graphic	0xe75
+	X	6104
+	Y	1182
+	Z	0
+	Facing	21
+	Revision	1
+	Realm	britannia
+	CProp	Created i2
+	Layer	21
+	Container	0x4
+	DecayAt	14170
+}
+
+NPC crier
+{
+	Name	Patamon - Obwolywacz miejski
+	Serial	0x7
+	ObjType	0x190
+	Graphic	0x190
+	Color	0x83ea
+	X	1852
+	Y	2756
+	Z	20
+	Facing	7
+	Revision	0
+	Realm	britannia
+	CProp	AiSerial i7
+	CProp	Anchor a5:i1854i2758i20i5S9:britannia
+	CProp	Created i2
+	CProp	CreatedAt i14345
+	CProp	Flags i0
+	CProp	Graphic i400
+	CProp	SetColor i33770
+	TrueColor	0x83f8
+	TrueObjtype	0x190
+	Gender	0
+	Race	0
+	Strength	200
+	Intelligence	200
+	Dexterity	200
+	Wrestling	100
+	Life	200
+	Mana	200
+	Stamina	200
+	Privs	invul 
+	Settings	invul 
+	CreatedAt	0
+	script	crier
+}
+
+Item
+{
+	Serial	0x40001415
+	ObjType	0x203d
+	Graphic	0x203d
+	Color	0x39a
+	X	6104
+	Y	1182
+	Z	0
+	Facing	11
+	Revision	1
+	Realm	britannia
+	CProp	Created i2
+	Layer	11
+	Container	0x7
+	DecayAt	15545
+}
+
+Item
+{
+	Serial	0x40001416
+	ObjType	0x203e
+	Graphic	0x203e
+	Color	0x39a
+	X	6104
+	Y	1182
+	Z	0
+	Facing	16
+	Revision	1
+	Realm	britannia
+	CProp	Created i2
+	Layer	16
+	Container	0x7
+	DecayAt	15545
+}
+
+Item
+{
+	Serial	0x4000140e
+	ObjType	0x966b
+	Graphic	0xe75
+	X	6104
+	Y	1182
+	Z	0
+	Facing	21
+	Revision	1
+	Realm	britannia
+	CProp	Created i2
+	Layer	21
+	Container	0x7
+	DecayAt	15545
+}
+

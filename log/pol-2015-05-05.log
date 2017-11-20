@@ -1,0 +1,1530 @@
+[04/19 00:06:16] Logfile opened.
+POL098.2-2009-10-13 Beer and Waffles (VS.NET 2005) compiled on Oct 13 2009 21:04:50 running.
+[04/19 00:06:40] Logfile opened.
+POL098.2-2009-10-13 Beer and Waffles (VS.NET 2005) compiled on Oct 13 2009 21:04:50 running.
+[04/19 00:06:43] Game is active.
+[pkg/systems/eventcore/event_control.ecl]: [EventControl]: Event list prepared. Found 0 events active.
+[pkg/systems/saver/saver.ecl]: [Error]: Saver: Nie znaleziono konfiga! :saver:saver
+[04/19 00:08:33] Shutting down...
+Scheduler passes: 106
+Script passes:    659638
+Script                                       cycles  invoc    cyc/invoc      %
+pkg/crafting/economy.ecl                     614065      1       614065 91.59
+pkg/crafting/start.ecl                           92      1           92 0.01
+pkg/hooks/attackhook.ecl                         90      1           90 0.01
+pkg/hooks/checkskill.ecl                         11      1           11 0.00
+pkg/hooks/push.ecl                               11      1           11 0.00
+pkg/hooks/regen.ecl                              16      1           16 0.00
+pkg/hooks/repsys.ecl                              9      1            9 0.00
+pkg/items/guildstone/guildctl.ecl                66      1           66 0.01
+pkg/items/guildstone/start.ecl                   92      1           92 0.01
+pkg/items/sysbook/writable.ecl                   12      6            2 0.00
+pkg/items/waypoints/start.ecl                    76      1           76 0.01
+pkg/magic/magiceffects/npcmodcore.ecl            90      1           90 0.01
+pkg/packets/p_attack/attack.ecl                  10      1           10 0.00
+pkg/packets/p_BFs/subp_2C/BFsub2C.ecl             7      1            7 0.00
+pkg/packets/p_BFs/subp_party/phook_party.ecl            5      1            5 0.00
+pkg/packets/p_clientmacro/subp_opendoor/opendoor.ecl            5      1            5 0.00
+pkg/packets/p_info/update.ecl                     2      1            2 0.00
+pkg/packets/p_login/h_login.ecl                  16      1           16 0.00
+pkg/packets/p_misc/misc.ecl                      14      1           14 0.00
+pkg/packets/p_shop/shop.ecl                      28      1           28 0.00
+pkg/packets/p_speech/speech.ecl                  44      1           44 0.01
+pkg/packets/p_tooltip/tooltip.ecl                 7      1            7 0.00
+pkg/packets/p_update/update.ecl                   7      1            7 0.00
+pkg/systems/champions/champcore.ecl           45150      1        45150 6.73
+pkg/systems/champions/start.ecl                  92      1           92 0.01
+pkg/systems/combat/chekShields.ecl                9      1            9 0.00
+pkg/systems/eventcore/event_control.ecl          296      1          296 0.04
+pkg/systems/eventcore/start.ecl                  92      1           92 0.01
+pkg/systems/globchk/start.ecl                    41      1           41 0.01
+pkg/systems/happyhour/happyhour.ecl            2959      1         2959 0.44
+pkg/systems/happyhour/start.ecl                  92      1           92 0.01
+pkg/systems/jail/jailout.ecl                     88      1           88 0.01
+pkg/systems/jail/start.ecl                       92      1           92 0.01
+pkg/systems/mail/mail_ctrl.ecl                   90      1           90 0.01
+pkg/systems/mail/start.ecl                       92      1           92 0.01
+pkg/systems/makrocheck/makrocheck.ecl            70      1           70 0.01
+pkg/systems/makrocheck/start.ecl                 92      1           92 0.01
+pkg/systems/npcguilds/ngd_ctrl.ecl              114      1          114 0.02
+pkg/systems/npcguilds/start.ecl                  92      1           92 0.01
+pkg/systems/reslogon/checkbans.ecl              128      1          128 0.02
+pkg/systems/reslogon/checkrl.ecl                214      1          214 0.03
+pkg/systems/reslogon/petsecurecore.ecl           87      1           87 0.01
+pkg/systems/reslogon/start.ecl                  270      1          270 0.04
+pkg/systems/saver/saver.ecl                     185      1          185 0.03
+pkg/systems/saver/start.ecl                      92      1           92 0.01
+pkg/systems/weather/start.ecl                    92      1           92 0.01
+pkg/systems/weather/startweather.ecl           1875      1         1875 0.28
+scripts/misc/equiptest.ecl                        0      0            0 0.00
+scripts/sc.ecl                                 1062      1         1062 0.16
+scripts/shardinfo.ecl                          1853      1         1853 0.28
+scripts/start.ecl                               353      1          353 0.05
+Closing logfile.
+[04/19 00:11:26] Logfile opened.
+POL098.2-2009-10-13 Beer and Waffles (VS.NET 2005) compiled on Oct 13 2009 21:04:50 running.
+[04/19 00:11:29] Game is active.
+[pkg/systems/eventcore/event_control.ecl]: [EventControl]: Event list prepared. Found 0 events active.
+[pkg/systems/saver/saver.ecl]: [Error]: Saver: Nie znaleziono konfiga! :saver:saver
+[04/19 00:12:29] sysload=1 (0) cputime=15625
+[04/19 00:13:09] Shutting down...
+Scheduler passes: 98
+Script passes:    44243
+Script                                       cycles  invoc    cyc/invoc      %
+pkg/crafting/economy.ecl                       1567      1         1567 2.93
+pkg/crafting/start.ecl                           84      1           84 0.16
+pkg/hooks/attackhook.ecl                         90      1           90 0.17
+pkg/hooks/checkskill.ecl                         11      1           11 0.02
+pkg/hooks/push.ecl                               11      1           11 0.02
+pkg/hooks/regen.ecl                              16      1           16 0.03
+pkg/hooks/repsys.ecl                              9      1            9 0.02
+pkg/items/guildstone/guildctl.ecl                66      1           66 0.12
+pkg/items/guildstone/start.ecl                   84      1           84 0.16
+pkg/items/sysbook/writable.ecl                   12      6            2 0.02
+pkg/items/waypoints/start.ecl                    66      1           66 0.12
+pkg/magic/magiceffects/npcmodcore.ecl            90      1           90 0.17
+pkg/packets/p_attack/attack.ecl                  10      1           10 0.02
+pkg/packets/p_BFs/subp_2C/BFsub2C.ecl             7      1            7 0.01
+pkg/packets/p_BFs/subp_party/phook_party.ecl            5      1            5 0.01
+pkg/packets/p_clientmacro/subp_opendoor/opendoor.ecl            5      1            5 0.01
+pkg/packets/p_info/update.ecl                     2      1            2 0.00
+pkg/packets/p_login/h_login.ecl                  16      1           16 0.03
+pkg/packets/p_misc/misc.ecl                      14      1           14 0.03
+pkg/packets/p_shop/shop.ecl                      28      1           28 0.05
+pkg/packets/p_speech/speech.ecl                  44      1           44 0.08
+pkg/packets/p_tooltip/tooltip.ecl                 7      1            7 0.01
+pkg/packets/p_update/update.ecl                   7      1            7 0.01
+pkg/systems/champions/champcore.ecl           41808      1        41808 78.30
+pkg/systems/champions/start.ecl                  84      1           84 0.16
+pkg/systems/combat/chekShields.ecl                9      1            9 0.02
+pkg/systems/eventcore/event_control.ecl          267      1          267 0.50
+pkg/systems/eventcore/start.ecl                  84      1           84 0.16
+pkg/systems/globchk/start.ecl                    33      1           33 0.06
+pkg/systems/happyhour/happyhour.ecl            2959      1         2959 5.54
+pkg/systems/happyhour/start.ecl                  84      1           84 0.16
+pkg/systems/jail/jailout.ecl                     88      1           88 0.16
+pkg/systems/jail/start.ecl                       84      1           84 0.16
+pkg/systems/mail/mail_ctrl.ecl                   90      1           90 0.17
+pkg/systems/mail/start.ecl                       84      1           84 0.16
+pkg/systems/makrocheck/makrocheck.ecl            70      1           70 0.13
+pkg/systems/makrocheck/start.ecl                 84      1           84 0.16
+pkg/systems/npcguilds/ngd_ctrl.ecl              110      1          110 0.21
+pkg/systems/npcguilds/start.ecl                  84      1           84 0.16
+pkg/systems/reslogon/checkbans.ecl              128      1          128 0.24
+pkg/systems/reslogon/checkrl.ecl                214      1          214 0.40
+pkg/systems/reslogon/petsecurecore.ecl           87      1           87 0.16
+pkg/systems/reslogon/start.ecl                  246      1          246 0.46
+pkg/systems/saver/saver.ecl                     185      1          185 0.35
+pkg/systems/saver/start.ecl                      84      1           84 0.16
+pkg/systems/weather/start.ecl                    84      1           84 0.16
+pkg/systems/weather/startweather.ecl           1708      1         1708 3.20
+scripts/misc/equiptest.ecl                        0      0            0 0.00
+scripts/sc.ecl                                  196      1          196 0.37
+scripts/shardinfo.ecl                          1871      1         1871 3.50
+scripts/start.ecl                               319      1          319 0.60
+Closing logfile.
+[04/19 00:13:10] Logfile opened.
+POL098.2-2009-10-13 Beer and Waffles (VS.NET 2005) compiled on Oct 13 2009 21:04:50 running.
+[04/19 00:13:12] Game is active.
+[pkg/systems/eventcore/event_control.ecl]: [EventControl]: Event list prepared. Found 0 events active.
+[pkg/systems/saver/saver.ecl]: [Error]: Saver: Nie znaleziono konfiga! :saver:saver
+[04/19 00:14:12] sysload=0 (0) cputime=0
+[04/19 00:15:12] sysload=1 (0) cputime=15625
+[04/19 00:16:12] sysload=0 (0) cputime=0
+[04/19 00:17:12] sysload=0 (0) cputime=0
+[04/19 00:18:12] sysload=0 (0) cputime=0
+[04/19 00:19:12] sysload=0 (0) cputime=0
+[04/19 00:20:12] sysload=0 (0) cputime=0
+[04/19 00:21:12] sysload=0 (0) cputime=15625
+[04/19 00:22:12] sysload=0 (0) cputime=0
+[04/19 00:23:12] sysload=0 (0) cputime=0
+[04/19 00:24:12] sysload=1 (0) cputime=0
+[04/19 00:24:29] Shutting down...
+Scheduler passes: 675
+Script passes:    322158
+Script                                       cycles  invoc    cyc/invoc      %
+pkg/crafting/economy.ecl                       3045      1         3045 0.89
+pkg/crafting/start.ecl                           84      1           84 0.02
+pkg/hooks/attackhook.ecl                         90      1           90 0.03
+pkg/hooks/checkskill.ecl                         11      1           11 0.00
+pkg/hooks/push.ecl                               11      1           11 0.00
+pkg/hooks/regen.ecl                              16      1           16 0.00
+pkg/hooks/repsys.ecl                              9      1            9 0.00
+pkg/items/guildstone/guildctl.ecl                78      1           78 0.02
+pkg/items/guildstone/start.ecl                   84      1           84 0.02
+pkg/items/sysbook/writable.ecl                   12      6            2 0.00
+pkg/items/waypoints/start.ecl                    66      1           66 0.02
+pkg/magic/magiceffects/npcmodcore.ecl           130      1          130 0.04
+pkg/packets/p_attack/attack.ecl                  10      1           10 0.00
+pkg/packets/p_BFs/subp_2C/BFsub2C.ecl             7      1            7 0.00
+pkg/packets/p_BFs/subp_party/phook_party.ecl            5      1            5 0.00
+pkg/packets/p_clientmacro/subp_opendoor/opendoor.ecl            5      1            5 0.00
+pkg/packets/p_info/update.ecl                     2      1            2 0.00
+pkg/packets/p_login/h_login.ecl                  16      1           16 0.00
+pkg/packets/p_misc/misc.ecl                      14      1           14 0.00
+pkg/packets/p_shop/shop.ecl                      28      1           28 0.01
+pkg/packets/p_speech/speech.ecl                  44      1           44 0.01
+pkg/packets/p_tooltip/tooltip.ecl                 7      1            7 0.00
+pkg/packets/p_update/update.ecl                   7      1            7 0.00
+pkg/systems/champions/champcore.ecl          280560      1       280560 81.87
+pkg/systems/champions/start.ecl                  84      1           84 0.02
+pkg/systems/combat/chekShields.ecl                9      1            9 0.00
+pkg/systems/eventcore/event_control.ecl          992      1          992 0.29
+pkg/systems/eventcore/start.ecl                  84      1           84 0.02
+pkg/systems/globchk/start.ecl                    33      1           33 0.01
+pkg/systems/happyhour/happyhour.ecl           17299      1        17299 5.05
+pkg/systems/happyhour/start.ecl                  84      1           84 0.02
+pkg/systems/jail/jailout.ecl                    198      1          198 0.06
+pkg/systems/jail/start.ecl                       84      1           84 0.02
+pkg/systems/mail/mail_ctrl.ecl                  250      1          250 0.07
+pkg/systems/mail/start.ecl                       84      1           84 0.02
+pkg/systems/makrocheck/makrocheck.ecl            79      1           79 0.02
+pkg/systems/makrocheck/start.ecl                 84      1           84 0.02
+pkg/systems/npcguilds/ngd_ctrl.ecl              290      1          290 0.08
+pkg/systems/npcguilds/start.ecl                  84      1           84 0.02
+pkg/systems/reslogon/checkbans.ecl              171      1          171 0.05
+pkg/systems/reslogon/checkrl.ecl                214      1          214 0.06
+pkg/systems/reslogon/petsecurecore.ecl          227      1          227 0.07
+pkg/systems/reslogon/start.ecl                  246      1          246 0.07
+pkg/systems/saver/saver.ecl                     185      1          185 0.05
+pkg/systems/saver/start.ecl                      84      1           84 0.02
+pkg/systems/weather/start.ecl                    84      1           84 0.02
+pkg/systems/weather/startweather.ecl          30101      1        30101 8.78
+scripts/misc/equiptest.ecl                        0      0            0 0.00
+scripts/sc.ecl                                  217      1          217 0.06
+scripts/shardinfo.ecl                          6782      1         6782 1.98
+scripts/start.ecl                               319      1          319 0.09
+Closing logfile.
+[04/19 00:24:53] Logfile opened.
+POL098.2-2009-10-13 Beer and Waffles (VS.NET 2005) compiled on Oct 13 2009 21:04:50 running.
+[04/19 00:24:55] Game is active.
+[pkg/systems/eventcore/event_control.ecl]: [EventControl]: Event list prepared. Found 0 events active.
+[pkg/systems/saver/saver.ecl]: [Error]: Saver: Nie znaleziono konfiga! :saver:saver
+[04/19 00:25:55] sysload=1 (0) cputime=46875
+[04/19 00:26:55] sysload=0 (0) cputime=15625
+[04/19 00:27:55] sysload=0 (0) cputime=0
+[04/19 00:28:55] sysload=0 (0) cputime=0
+[04/19 00:29:55] sysload=0 (0) cputime=0
+[04/19 00:30:55] sysload=0 (0) cputime=0
+[04/19 00:31:55] sysload=0 (0) cputime=0
+[04/19 00:32:40] Shutting down...
+Scheduler passes: 463
+Script passes:    214742
+Script                                       cycles  invoc    cyc/invoc      %
+pkg/crafting/economy.ecl                       1567      1         1567 0.65
+pkg/crafting/start.ecl                           84      1           84 0.03
+pkg/hooks/attackhook.ecl                         90      1           90 0.04
+pkg/hooks/checkskill.ecl                         11      1           11 0.00
+pkg/hooks/push.ecl                               11      1           11 0.00
+pkg/hooks/regen.ecl                              16      1           16 0.01
+pkg/hooks/repsys.ecl                              9      1            9 0.00
+pkg/items/guildstone/guildctl.ecl                78      1           78 0.03
+pkg/items/guildstone/start.ecl                   84      1           84 0.03
+pkg/items/sysbook/writable.ecl                   12      6            2 0.00
+pkg/items/waypoints/start.ecl                    66      1           66 0.03
+pkg/magic/magiceffects/npcmodcore.ecl           114      1          114 0.05
+pkg/packets/p_attack/attack.ecl                  10      1           10 0.00
+pkg/packets/p_BFs/subp_2C/BFsub2C.ecl             7      1            7 0.00
+pkg/packets/p_BFs/subp_party/phook_party.ecl            5      1            5 0.00
+pkg/packets/p_clientmacro/subp_opendoor/opendoor.ecl            5      1            5 0.00
+pkg/packets/p_info/update.ecl                     2      1            2 0.00
+pkg/packets/p_login/h_login.ecl                  16      1           16 0.01
+pkg/packets/p_misc/misc.ecl                      14      1           14 0.01
+pkg/packets/p_shop/shop.ecl                      28      1           28 0.01
+pkg/packets/p_speech/speech.ecl                  44      1           44 0.02
+pkg/packets/p_tooltip/tooltip.ecl                 7      1            7 0.00
+pkg/packets/p_update/update.ecl                   7      1            7 0.00
+pkg/systems/champions/champcore.ecl          192686      1       192686 80.27
+pkg/systems/champions/start.ecl                  84      1           84 0.03
+pkg/systems/combat/chekShields.ecl                9      1            9 0.00
+pkg/systems/eventcore/event_control.ecl          742      1          742 0.31
+pkg/systems/eventcore/start.ecl                  84      1           84 0.03
+pkg/systems/globchk/start.ecl                    33      1           33 0.01
+pkg/systems/happyhour/happyhour.ecl           11563      1        11563 4.82
+pkg/systems/happyhour/start.ecl                  84      1           84 0.03
+pkg/systems/jail/jailout.ecl                    154      1          154 0.06
+pkg/systems/jail/start.ecl                       84      1           84 0.03
+pkg/systems/mail/mail_ctrl.ecl                  186      1          186 0.08
+pkg/systems/mail/start.ecl                       84      1           84 0.03
+pkg/systems/makrocheck/makrocheck.ecl            79      1           79 0.03
+pkg/systems/makrocheck/start.ecl                 84      1           84 0.03
+pkg/systems/npcguilds/ngd_ctrl.ecl              218      1          218 0.09
+pkg/systems/npcguilds/start.ecl                  84      1           84 0.03
+pkg/systems/reslogon/checkbans.ecl              171      1          171 0.07
+pkg/systems/reslogon/checkrl.ecl                214      1          214 0.09
+pkg/systems/reslogon/petsecurecore.ecl          171      1          171 0.07
+pkg/systems/reslogon/start.ecl                  246      1          246 0.10
+pkg/systems/saver/saver.ecl                     185      1          185 0.08
+pkg/systems/saver/start.ecl                      84      1           84 0.03
+pkg/systems/weather/start.ecl                    84      1           84 0.03
+pkg/systems/weather/startweather.ecl          24847      1        24847 10.35
+scripts/misc/equiptest.ecl                        0      0            0 0.00
+scripts/sc.ecl                                  217      1          217 0.09
+scripts/shardinfo.ecl                          4979      1         4979 2.07
+scripts/start.ecl                               319      1          319 0.13
+Closing logfile.
+[04/19 00:32:43] Logfile opened.
+POL098.2-2009-10-13 Beer and Waffles (VS.NET 2005) compiled on Oct 13 2009 21:04:50 running.
+[04/19 00:32:45] Game is active.
+[pkg/systems/eventcore/event_control.ecl]: [EventControl]: Event list prepared. Found 0 events active.
+[04/19 00:32:49] Client#1 connected from 192.168.1.138 (1 connections) on interface 192.168.1.138
+Account qrak logged in from 192.168.1.138
+[04/19 00:32:51] Client#1 (192.168.1.138): disconnected (account qrak)
+Client#2 connected from 127.0.0.1 (1 connections) on interface 127.0.0.1
+Account qrak logged in from 127.0.0.1
+[04/19 00:32:53] Account qrak selecting character Nieznajomy
+[scripts/misc/logon.ecl]: [Info]: [FindMailBox] Nieznajomy/2 Tworzenie nowej skrzynki pocztowej.
+[scripts/sc.ecl]: Off-Log[04-19 00:32:53]: Nieznajomy/qrak IP: 127.0.0.1
+[04/19 00:33:45] sysload=0 (0) cputime=343750
+[04/19 00:34:45] sysload=0 (0) cputime=15625
+[04/19 00:35:45] sysload=0 (0) cputime=0
+[04/19 00:36:45] sysload=0 (0) cputime=15625
+[04/19 00:37:45] sysload=1 (0) cputime=31250
+[04/19 00:38:45] sysload=3 (1) cputime=15625
+[04/19 00:39:45] sysload=0 (0) cputime=0
+[04/19 00:40:45] sysload=0 (0) cputime=0
+[04/19 00:41:45] sysload=0 (0) cputime=15625
+[04/19 00:42:45] sysload=0 (0) cputime=15625
+[04/19 00:43:45] sysload=0 (0) cputime=0
+[04/19 00:44:45] sysload=0 (0) cputime=15625
+[04/19 00:45:45] sysload=0 (0) cputime=31250
+[04/19 00:46:45] sysload=0 (0) cputime=0
+[04/19 00:47:45] sysload=0 (0) cputime=0
+[04/19 00:48:45] sysload=0 (0) cputime=0
+[04/19 00:49:45] sysload=0 (0) cputime=15625
+[04/19 00:50:45] sysload=1 (0) cputime=15625
+[04/19 00:51:45] sysload=0 (0) cputime=0
+[04/19 00:52:45] sysload=0 (0) cputime=0
+[04/19 00:53:45] sysload=0 (0) cputime=15625
+[04/19 00:54:45] sysload=0 (0) cputime=0
+[04/19 00:55:45] sysload=0 (0) cputime=0
+[04/19 00:56:45] sysload=0 (0) cputime=0
+[04/19 00:57:45] sysload=0 (0) cputime=0
+[04/19 00:58:45] sysload=0 (0) cputime=0
+[04/19 00:59:45] sysload=0 (0) cputime=15625
+[04/19 01:00:45] sysload=0 (0) cputime=15625
+[04/19 01:01:45] sysload=0 (0) cputime=15625
+[04/19 01:02:45] sysload=0 (0) cputime=0
+[04/19 01:03:16] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 00
+[04/19 01:03:45] sysload=0 (0) cputime=31250
+[04/19 01:04:45] sysload=0 (0) cputime=0
+[04/19 01:05:45] sysload=1 (0) cputime=0
+[04/19 01:06:45] sysload=0 (0) cputime=15625
+[04/19 01:07:45] sysload=0 (0) cputime=15625
+[04/19 01:08:45] sysload=0 (0) cputime=0
+[04/19 01:09:45] sysload=0 (0) cputime=0
+[04/19 01:10:45] sysload=0 (0) cputime=0
+[04/19 01:11:45] sysload=0 (0) cputime=0
+[04/19 01:12:45] sysload=1 (0) cputime=0
+[04/19 01:13:45] sysload=0 (0) cputime=0
+[04/19 01:14:45] sysload=0 (0) cputime=0
+[04/19 01:15:45] sysload=0 (0) cputime=0
+[04/19 01:16:45] sysload=0 (0) cputime=0
+[04/19 01:17:45] sysload=0 (0) cputime=0
+[04/19 01:18:45] sysload=0 (0) cputime=15625
+[04/19 01:19:45] sysload=0 (0) cputime=0
+[04/19 01:20:45] sysload=0 (0) cputime=0
+[04/19 01:21:45] sysload=0 (0) cputime=0
+[04/19 01:22:45] sysload=0 (0) cputime=0
+[04/19 01:23:45] sysload=0 (0) cputime=0
+[04/19 01:24:45] sysload=0 (0) cputime=0
+[04/19 01:25:45] sysload=0 (0) cputime=0
+[04/19 01:26:45] sysload=0 (0) cputime=0
+[04/19 01:27:45] sysload=0 (0) cputime=0
+[04/19 01:28:45] sysload=0 (0) cputime=0
+[04/19 01:29:45] sysload=0 (0) cputime=0
+[04/19 01:30:39] Client#2 (127.0.0.1): disconnected (account qrak)
+Client#2: Disconnecting client due to send() error (1): 10038
+[04/19 01:30:43] Shutting down...
+Scheduler passes: 3476
+Script passes:    2029917
+Script                                       cycles  invoc    cyc/invoc      %
+pkg/character/chclient.ecl                      369      1          369 0.02
+pkg/character/checkrep.ecl                       35      1           35 0.00
+pkg/character/creation.ecl                      374      1          374 0.02
+pkg/crafting/economy.ecl                       8957      1         8957 0.43
+pkg/crafting/start.ecl                           84      1           84 0.00
+pkg/hooks/attackhook.ecl                         90      1           90 0.00
+pkg/hooks/attrcore.ecl                        20727      1        20727 0.99
+pkg/hooks/checkskill.ecl                         11      1           11 0.00
+pkg/hooks/playerhook.ecl                      91922      1        91922 4.40
+pkg/hooks/playerspeech.ecl                      391      1          391 0.02
+pkg/hooks/push.ecl                               11      1           11 0.00
+pkg/hooks/regen.ecl                            2152      1         2152 0.10
+pkg/hooks/regenhook.ecl                      190855      1       190855 9.15
+pkg/hooks/repsys.ecl                              9      1            9 0.00
+pkg/items/guildstone/guildctl.ecl               174      1          174 0.01
+pkg/items/guildstone/start.ecl                   84      1           84 0.00
+pkg/items/sysbook/writable.ecl                   12      6            2 0.00
+pkg/items/waypoints/start.ecl                    66      1           66 0.00
+pkg/magic/magiceffects/checklongspells.ecl         2191      1         2191 0.10
+pkg/magic/magiceffects/modcore.ecl             1198      1         1198 0.06
+pkg/magic/magiceffects/npcmodcore.ecl           314      1          314 0.02
+pkg/packets/p_attack/attack.ecl                  10      1           10 0.00
+pkg/packets/p_BFs/subp_2C/BFsub2C.ecl             7      1            7 0.00
+pkg/packets/p_BFs/subp_party/phook_party.ecl            5      1            5 0.00
+pkg/packets/p_clientmacro/subp_opendoor/opendoor.ecl            5      1            5 0.00
+pkg/packets/p_info/update.ecl                    37      1           37 0.00
+pkg/packets/p_login/h_login.ecl                3914      1         3914 0.19
+pkg/packets/p_misc/misc.ecl                     260      1          260 0.01
+pkg/packets/p_shop/shop.ecl                      28      1           28 0.00
+pkg/packets/p_speech/speech.ecl                 142      1          142 0.01
+pkg/packets/p_tooltip/tooltip.ecl               870      1          870 0.04
+pkg/packets/p_update/update.ecl                 322      1          322 0.02
+pkg/systems/champions/champcore.ecl         1441160      1      1441160 69.06
+pkg/systems/champions/start.ecl                  84      1           84 0.00
+pkg/systems/combat/chekShields.ecl                9      1            9 0.00
+pkg/systems/combat/equip.ecl                   2077      1         2077 0.10
+pkg/systems/eventcore/event_control.ecl         4492      1         4492 0.22
+pkg/systems/eventcore/start.ecl                  84      1           84 0.00
+pkg/systems/globchk/start.ecl                    33      1           33 0.00
+pkg/systems/happyhour/happyhour.ecl           83263      1        83263 3.99
+pkg/systems/happyhour/start.ecl                  84      1           84 0.00
+pkg/systems/jail/jailout.ecl                    704      1          704 0.03
+pkg/systems/jail/start.ecl                       84      1           84 0.00
+pkg/systems/mail/mail_ctrl.ecl                 9986      1         9986 0.48
+pkg/systems/mail/start.ecl                       84      1           84 0.00
+pkg/systems/makrocheck/makrocheck.ecl           151      1          151 0.01
+pkg/systems/makrocheck/start.ecl                 84      1           84 0.00
+pkg/systems/npcguilds/ngd_ctrl.ecl             1118      1         1118 0.05
+pkg/systems/npcguilds/start.ecl                  84      1           84 0.00
+pkg/systems/reslogon/checkbans.ecl              515      1          515 0.02
+pkg/systems/reslogon/checkrl.ecl                214      1          214 0.01
+pkg/systems/reslogon/logon.ecl                    8      1            8 0.00
+pkg/systems/reslogon/petsecurecore.ecl          871      1          871 0.04
+pkg/systems/reslogon/start.ecl                  246      1          246 0.01
+pkg/systems/saver/saver.ecl                    3900      1         3900 0.19
+pkg/systems/saver/start.ecl                      84      1           84 0.00
+pkg/systems/tips/logon.ecl                       38      1           38 0.00
+pkg/systems/tips/tip_watcher.ecl               1575      1         1575 0.08
+pkg/systems/weather/start.ecl                    84      1           84 0.00
+pkg/systems/weather/startweather.ecl         167185      1       167185 8.01
+scripts/misc/equiptest.ecl                       22      2           11 0.00
+scripts/misc/logoff.ecl                         349      1          349 0.02
+scripts/misc/logofftest.ecl                     403      1          403 0.02
+scripts/misc/logon.ecl                         7940      1         7940 0.38
+scripts/sc.ecl                                 2794      1         2794 0.13
+scripts/shardinfo.ecl                         31043      1        31043 1.49
+scripts/start.ecl                               319      1          319 0.02
+Closing logfile.
+[04/23 17:21:27] Logfile opened.
+POL098.2-2009-10-13 Beer and Waffles (VS.NET 2005) compiled on Oct 13 2009 21:04:50 running.
+[04/23 17:21:33] Game is active.
+[pkg/systems/eventcore/event_control.ecl]: [EventControl]: Event list prepared. Found 0 events active.
+[04/23 17:22:33] sysload=1 (0) cputime=46875
+[04/23 17:23:23] Client#1 connected from 192.168.1.138 (1 connections) on interface 192.168.1.138
+Incorrect password for account qrak from 192.168.1.138
+Client#1 (192.168.1.138): disconnected (account unknown)
+[04/23 17:23:33] sysload=0 (0) cputime=0
+[04/23 17:23:39] Client#2 connected from 192.168.1.138 (1 connections) on interface 192.168.1.138
+Account qrak logged in from 192.168.1.138
+[04/23 17:23:41] Client#2 (192.168.1.138): disconnected (account qrak)
+Client#3 connected from 127.0.0.1 (1 connections) on interface 127.0.0.1
+Account qrak logged in from 127.0.0.1
+[04/23 17:23:42] Account qrak selecting character Nieznajomy
+[04/23 17:23:43] [scripts/sc.ecl]: Off-Log[04-23 17:23:43]: Nieznajomy/qrak IP: 127.0.0.1
+[04/23 17:24:33] sysload=0 (0) cputime=343750
+[04/23 17:25:33] sysload=0 (0) cputime=62500
+[04/23 17:26:33] sysload=0 (0) cputime=62500
+[04/23 17:27:33] sysload=0 (0) cputime=15625
+[04/23 17:28:33] sysload=0 (0) cputime=0
+[04/23 17:29:33] sysload=0 (0) cputime=0
+[04/23 17:30:33] sysload=0 (0) cputime=15625
+[04/23 17:31:33] sysload=0 (0) cputime=0
+[04/23 17:32:33] sysload=0 (0) cputime=0
+[04/23 17:33:33] sysload=0 (0) cputime=0
+[04/23 17:34:33] sysload=0 (0) cputime=0
+[04/23 17:35:33] sysload=0 (0) cputime=0
+[04/23 17:36:33] sysload=0 (0) cputime=0
+[04/23 17:37:33] sysload=0 (0) cputime=0
+[04/23 17:38:33] sysload=0 (0) cputime=0
+[04/23 17:39:33] sysload=0 (0) cputime=0
+[04/23 17:40:33] sysload=0 (0) cputime=0
+[04/23 17:41:33] sysload=0 (0) cputime=0
+[04/23 17:42:33] sysload=0 (0) cputime=0
+[04/23 17:43:33] sysload=0 (0) cputime=0
+[04/23 17:44:33] sysload=0 (0) cputime=31250
+[04/23 17:45:33] sysload=0 (0) cputime=0
+[04/23 17:46:33] sysload=0 (0) cputime=0
+[04/23 17:47:33] sysload=0 (0) cputime=0
+[04/23 17:48:33] sysload=0 (0) cputime=0
+[04/23 17:49:33] sysload=0 (0) cputime=0
+[04/23 17:50:33] sysload=0 (0) cputime=0
+[04/23 17:51:33] sysload=0 (0) cputime=0
+[04/23 17:52:04] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 00
+[04/23 17:52:33] sysload=0 (0) cputime=31250
+[04/23 17:53:33] sysload=1 (0) cputime=0
+[04/23 17:54:33] sysload=0 (0) cputime=0
+[04/23 17:55:33] sysload=0 (0) cputime=0
+[04/23 17:56:33] sysload=0 (0) cputime=0
+[04/23 17:56:52] Client#3 (127.0.0.1): disconnected (account qrak)
+Client#3: Disconnecting client due to send() error (1): 10038
+[04/23 17:56:57] Shutting down...
+Scheduler passes: 2121
+Script passes:    1843145
+Script                                       cycles  invoc    cyc/invoc      %
+pkg/character/chclient.ecl                      367      1          367 0.02
+pkg/character/checkrep.ecl                       35      1           35 0.00
+pkg/crafting/economy.ecl                     618502      1       618502 32.72
+pkg/crafting/start.ecl                           84      1           84 0.00
+pkg/hooks/attackhook.ecl                         90      1           90 0.00
+pkg/hooks/attrcore.ecl                        18240      1        18240 0.96
+pkg/hooks/checkskill.ecl                         11      1           11 0.00
+pkg/hooks/playerhook.ecl                      52784      1        52784 2.79
+pkg/hooks/playerspeech.ecl                      251      1          251 0.01
+pkg/hooks/push.ecl                               11      1           11 0.00
+pkg/hooks/regen.ecl                            1084      1         1084 0.06
+pkg/hooks/regenhook.ecl                      110139      1       110139 5.83
+pkg/hooks/repsys.ecl                              9      1            9 0.00
+pkg/items/guildstone/guildctl.ecl               126      1          126 0.01
+pkg/items/guildstone/start.ecl                   84      1           84 0.00
+pkg/items/sysbook/writable.ecl                   12      6            2 0.00
+pkg/items/waypoints/start.ecl                    66      1           66 0.00
+pkg/magic/magiceffects/checklongspells.ecl         2191      1         2191 0.12
+pkg/magic/magiceffects/modcore.ecl              718      1          718 0.04
+pkg/magic/magiceffects/npcmodcore.ecl           226      1          226 0.01
+pkg/packets/p_attack/attack.ecl                 502      1          502 0.03
+pkg/packets/p_BFs/subp_2C/BFsub2C.ecl             7      1            7 0.00
+pkg/packets/p_BFs/subp_party/phook_party.ecl            5      1            5 0.00
+pkg/packets/p_clientmacro/subp_opendoor/opendoor.ecl            5      1            5 0.00
+pkg/packets/p_info/update.ecl                    37      1           37 0.00
+pkg/packets/p_login/h_login.ecl                3968      1         3968 0.21
+pkg/packets/p_misc/misc.ecl                     383      1          383 0.02
+pkg/packets/p_shop/shop.ecl                      28      1           28 0.00
+pkg/packets/p_speech/speech.ecl                 857      1          857 0.05
+pkg/packets/p_tooltip/tooltip.ecl               870      1          870 0.05
+pkg/packets/p_update/update.ecl                 142      1          142 0.01
+pkg/systems/champions/champcore.ecl          879098      1       879098 46.51
+pkg/systems/champions/start.ecl                  84      1           84 0.00
+pkg/systems/combat/chekShields.ecl                9      1            9 0.00
+pkg/systems/combat/equip.ecl                   1472      1         1472 0.08
+pkg/systems/eventcore/event_control.ecl         2792      1         2792 0.15
+pkg/systems/eventcore/start.ecl                  84      1           84 0.00
+pkg/systems/globchk/start.ecl                    33      1           33 0.00
+pkg/systems/happyhour/happyhour.ecl           51715      1        51715 2.74
+pkg/systems/happyhour/start.ecl                  84      1           84 0.00
+pkg/systems/jail/jailout.ecl                    462      1          462 0.02
+pkg/systems/jail/start.ecl                       84      1           84 0.00
+pkg/systems/mail/mail_ctrl.ecl                 6265      1         6265 0.33
+pkg/systems/mail/start.ecl                       84      1           84 0.00
+pkg/systems/makrocheck/makrocheck.ecl           115      1          115 0.01
+pkg/systems/makrocheck/start.ecl                 84      1           84 0.00
+pkg/systems/npcguilds/ngd_ctrl.ecl              722      1          722 0.04
+pkg/systems/npcguilds/start.ecl                  84      1           84 0.00
+pkg/systems/reslogon/checkbans.ecl              343      1          343 0.02
+pkg/systems/reslogon/checkrl.ecl                214      1          214 0.01
+pkg/systems/reslogon/logon.ecl                    8      1            8 0.00
+pkg/systems/reslogon/petsecurecore.ecl          563      1          563 0.03
+pkg/systems/reslogon/start.ecl                  246      1          246 0.01
+pkg/systems/saver/saver.ecl                    3555      1         3555 0.19
+pkg/systems/saver/start.ecl                      84      1           84 0.00
+pkg/systems/tips/logon.ecl                       26      1           26 0.00
+pkg/systems/weather/start.ecl                    84      1           84 0.00
+pkg/systems/weather/startweather.ecl          98178      1        98178 5.19
+scripts/misc/equiptest.ecl                       22      2           11 0.00
+scripts/misc/logoff.ecl                         349      1          349 0.02
+scripts/misc/logofftest.ecl                     403      1          403 0.02
+scripts/misc/logon.ecl                         7226      1         7226 0.38
+scripts/sc.ecl                                 4269      1         4269 0.23
+scripts/shardinfo.ecl                         19295      1        19295 1.02
+scripts/start.ecl                               319      1          319 0.02
+Closing logfile.
+[04/23 17:57:01] Logfile opened.
+POL098.2-2009-10-13 Beer and Waffles (VS.NET 2005) compiled on Oct 13 2009 21:04:50 running.
+[04/23 17:57:05] Game is active.
+[pkg/systems/eventcore/event_control.ecl]: [EventControl]: Event list prepared. Found 0 events active.
+[04/23 17:57:07] Client#1 connected from 192.168.1.138 (1 connections) on interface 192.168.1.138
+Account qrak logged in from 192.168.1.138
+[04/23 17:57:09] Client#1 (192.168.1.138): disconnected (account qrak)
+Client#2 connected from 127.0.0.1 (1 connections) on interface 127.0.0.1
+Account qrak logged in from 127.0.0.1
+[04/23 17:57:10] Account qrak selecting character Nieznajomy
+[scripts/sc.ecl]: Off-Log[04-23 17:57:10]: Nieznajomy/qrak IP: 127.0.0.1
+[04/23 17:58:05] sysload=0 (0) cputime=343750
+[04/23 17:59:05] sysload=0 (0) cputime=0
+[04/23 18:00:05] sysload=1 (0) cputime=296875
+[04/23 18:01:05] sysload=0 (0) cputime=15625
+[04/23 18:02:05] sysload=0 (0) cputime=46875
+[04/23 18:03:05] sysload=0 (0) cputime=0
+[04/23 18:04:05] sysload=1 (0) cputime=0
+[04/23 18:05:05] sysload=0 (0) cputime=15625
+[04/23 18:06:05] sysload=0 (0) cputime=0
+[04/23 18:07:05] sysload=0 (0) cputime=15625
+[04/23 18:08:05] sysload=0 (0) cputime=0
+[04/23 18:09:05] sysload=0 (0) cputime=0
+[04/23 18:10:05] sysload=0 (0) cputime=15625
+[04/23 18:11:05] sysload=0 (0) cputime=15625
+[04/23 18:12:05] sysload=0 (0) cputime=0
+[04/23 18:13:05] sysload=0 (0) cputime=0
+[04/23 18:14:05] sysload=0 (0) cputime=0
+[04/23 18:15:05] sysload=0 (0) cputime=0
+[04/23 18:16:05] sysload=0 (0) cputime=15625
+[04/23 18:17:05] sysload=0 (0) cputime=0
+[04/23 18:18:05] sysload=1 (0) cputime=15625
+[04/23 18:19:05] sysload=0 (0) cputime=0
+[04/23 18:20:05] sysload=0 (0) cputime=15625
+[04/23 18:21:05] sysload=1 (0) cputime=0
+[04/23 18:22:05] sysload=0 (0) cputime=0
+[04/23 18:23:05] sysload=0 (0) cputime=0
+[04/23 18:24:05] sysload=0 (0) cputime=0
+[04/23 18:25:05] sysload=0 (0) cputime=15625
+[04/23 18:26:05] sysload=1 (0) cputime=0
+[04/23 18:27:05] sysload=0 (0) cputime=0
+[04/23 18:27:36] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 00
+[04/23 18:28:05] sysload=0 (0) cputime=46875
+[04/23 18:29:05] sysload=0 (0) cputime=15625
+[04/23 18:30:05] sysload=0 (0) cputime=15625
+[04/23 18:31:05] sysload=0 (0) cputime=0
+[04/23 18:31:52] Client#2 (127.0.0.1): disconnected (account qrak)
+Client#2: Disconnecting client due to send() error (1): 10038
+[04/23 18:31:56] Shutting down...
+Scheduler passes: 2090
+Script passes:    1280637
+Script                                       cycles  invoc    cyc/invoc      %
+pkg/character/chclient.ecl                      367      1          367 0.03
+pkg/character/checkrep.ecl                       35      1           35 0.00
+pkg/crafting/economy.ecl                       6001      1         6001 0.46
+pkg/crafting/start.ecl                           84      1           84 0.01
+pkg/hooks/attackhook.ecl                         90      1           90 0.01
+pkg/hooks/attrcore.ecl                        18211      1        18211 1.39
+pkg/hooks/checkskill.ecl                         11      1           11 0.00
+pkg/hooks/playerhook.ecl                      55386      1        55386 4.22
+pkg/hooks/playerspeech.ecl                      611      1          611 0.05
+pkg/hooks/push.ecl                               11      1           11 0.00
+pkg/hooks/regen.ecl                            1611      1         1611 0.12
+pkg/hooks/regenhook.ecl                      117652      1       117652 8.96
+pkg/hooks/repsys.ecl                              9      1            9 0.00
+pkg/items/guildstone/guildctl.ecl               126      1          126 0.01
+pkg/items/guildstone/start.ecl                   84      1           84 0.01
+pkg/items/lostitems/process_item.ecl            200      2          100 0.02
+pkg/items/sysbook/writable.ecl                   12      6            2 0.00
+pkg/items/waypoints/start.ecl                    66      1           66 0.01
+pkg/magic/magiceffects/checklongspells.ecl         2191      1         2191 0.17
+pkg/magic/magiceffects/modcore.ecl              758      1          758 0.06
+pkg/magic/magiceffects/npcmodcore.ecl           226      1          226 0.02
+pkg/packets/p_attack/attack.ecl                 698      1          698 0.05
+pkg/packets/p_BFs/subp_2C/BFsub2C.ecl             7      1            7 0.00
+pkg/packets/p_BFs/subp_party/phook_party.ecl            5      1            5 0.00
+pkg/packets/p_clientmacro/subp_opendoor/opendoor.ecl            5      1            5 0.00
+pkg/packets/p_info/update.ecl                    37      1           37 0.00
+pkg/packets/p_login/h_login.ecl                2783      1         2783 0.21
+pkg/packets/p_misc/misc.ecl                     741      1          741 0.06
+pkg/packets/p_shop/shop.ecl                      28      1           28 0.00
+pkg/packets/p_speech/speech.ecl                5704      1         5704 0.43
+pkg/packets/p_tooltip/tooltip.ecl              4187      1         4187 0.32
+pkg/packets/p_update/update.ecl                 772      1          772 0.06
+pkg/systems/champions/champcore.ecl          865834      1       865834 65.96
+pkg/systems/champions/start.ecl                  84      1           84 0.01
+pkg/systems/combat/chekShields.ecl                9      1            9 0.00
+pkg/systems/combat/equip.ecl                   1812      3          604 0.14
+pkg/systems/eventcore/event_control.ecl         2767      1         2767 0.21
+pkg/systems/eventcore/start.ecl                  84      1           84 0.01
+pkg/systems/globchk/start.ecl                    33      1           33 0.00
+pkg/systems/happyhour/happyhour.ecl           50281      1        50281 3.83
+pkg/systems/happyhour/start.ecl                  84      1           84 0.01
+pkg/systems/jail/jailout.ecl                    451      1          451 0.03
+pkg/systems/jail/start.ecl                       84      1           84 0.01
+pkg/systems/mail/mail_ctrl.ecl                 6257      1         6257 0.48
+pkg/systems/mail/start.ecl                       84      1           84 0.01
+pkg/systems/makrocheck/makrocheck.ecl           115      1          115 0.01
+pkg/systems/makrocheck/start.ecl                 84      1           84 0.01
+pkg/systems/npcguilds/ngd_ctrl.ecl              722      1          722 0.06
+pkg/systems/npcguilds/ngd_npcs/is_member.ecl          302      3          100 0.02
+pkg/systems/npcguilds/start.ecl                  84      1           84 0.01
+pkg/systems/reslogon/checkbans.ecl              343      1          343 0.03
+pkg/systems/reslogon/checkrl.ecl                214      1          214 0.02
+pkg/systems/reslogon/logon.ecl                    8      1            8 0.00
+pkg/systems/reslogon/petsecurecore.ecl          549      1          549 0.04
+pkg/systems/reslogon/start.ecl                  246      1          246 0.02
+pkg/systems/saver/saver.ecl                    3555      1         3555 0.27
+pkg/systems/saver/start.ecl                      84      1           84 0.01
+pkg/systems/tips/logon.ecl                       26      1           26 0.00
+pkg/systems/tips/tip_watcher.ecl                921      1          921 0.07
+pkg/systems/weather/start.ecl                    84      1           84 0.01
+pkg/systems/weather/startweather.ecl         108131      1       108131 8.24
+scripts/ai/traveler.ecl                       14868      1        14868 1.13
+scripts/control/cont_can_ins.ecl               1335      5          267 0.10
+scripts/control/cont_can_rem.ecl                320      4           80 0.02
+scripts/control/cont_on_ins.ecl                1092      5          218 0.08
+scripts/control/cont_on_rem.ecl                 792      4          198 0.06
+scripts/misc/equiptest.ecl                       66      6           11 0.01
+scripts/misc/logoff.ecl                         349      1          349 0.03
+scripts/misc/logofftest.ecl                     403      1          403 0.03
+scripts/misc/logon.ecl                         7222      1         7222 0.55
+scripts/npcupkeep.ecl                          1379      1         1379 0.11
+scripts/sc.ecl                                 3422      1         3422 0.26
+scripts/shardinfo.ecl                         19038      1        19038 1.45
+scripts/start.ecl                               319      1          319 0.02
+Closing logfile.
+[04/23 18:41:58] Logfile opened.
+POL098.2-2009-10-13 Beer and Waffles (VS.NET 2005) compiled on Oct 13 2009 21:04:50 running.
+[04/23 18:42:05] Game is active.
+[pkg/systems/eventcore/event_control.ecl]: [EventControl]: Event list prepared. Found 0 events active.
+[04/23 18:43:05] sysload=1 (0) cputime=31250
+[04/23 18:44:05] sysload=0 (0) cputime=0
+[04/23 18:45:05] sysload=0 (0) cputime=0
+[04/23 18:46:05] sysload=0 (0) cputime=31250
+[04/23 18:47:05] sysload=0 (0) cputime=0
+[04/23 18:48:05] sysload=0 (0) cputime=0
+[04/23 18:49:05] sysload=0 (0) cputime=0
+[04/23 18:50:05] sysload=0 (0) cputime=15625
+[04/23 18:51:05] sysload=0 (0) cputime=0
+[04/23 18:52:05] sysload=0 (0) cputime=0
+[04/23 18:53:05] sysload=0 (0) cputime=0
+[04/23 18:54:05] sysload=1 (0) cputime=0
+[04/23 18:55:05] sysload=0 (0) cputime=0
+[04/23 18:56:05] sysload=0 (0) cputime=0
+[04/23 18:57:05] sysload=0 (0) cputime=0
+[04/23 18:58:05] sysload=0 (0) cputime=0
+[04/23 18:59:05] sysload=0 (0) cputime=0
+[04/23 19:00:05] sysload=1 (0) cputime=0
+[04/23 19:01:05] sysload=0 (0) cputime=0
+[04/23 19:02:05] sysload=0 (0) cputime=0
+[04/23 19:03:05] sysload=0 (0) cputime=0
+[04/23 19:04:05] sysload=0 (0) cputime=15625
+[04/23 19:05:05] sysload=0 (0) cputime=0
+[04/23 19:06:05] sysload=1 (0) cputime=15625
+[04/23 19:07:05] sysload=0 (0) cputime=0
+[04/23 19:08:05] sysload=0 (0) cputime=0
+[04/23 19:09:05] sysload=0 (0) cputime=0
+[04/23 19:10:05] sysload=0 (0) cputime=0
+[04/23 19:11:05] sysload=0 (0) cputime=0
+[04/23 19:12:05] sysload=0 (0) cputime=0
+[04/23 19:12:36] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 00
+[04/23 19:13:05] sysload=0 (0) cputime=0
+[04/23 19:14:05] sysload=0 (0) cputime=0
+[04/23 19:15:05] sysload=0 (0) cputime=0
+[04/23 19:16:05] sysload=0 (0) cputime=0
+[04/23 19:17:05] sysload=0 (0) cputime=0
+[04/23 19:18:05] sysload=0 (0) cputime=0
+[04/23 19:19:05] sysload=0 (0) cputime=31250
+[04/23 19:20:05] sysload=0 (0) cputime=0
+[04/23 19:21:05] sysload=0 (0) cputime=0
+[04/23 19:22:05] sysload=0 (0) cputime=0
+[04/23 19:23:05] sysload=0 (0) cputime=0
+[04/23 19:24:05] sysload=0 (0) cputime=0
+[04/23 19:25:05] sysload=0 (0) cputime=0
+[04/23 19:26:05] sysload=0 (0) cputime=0
+[04/23 19:27:05] sysload=0 (0) cputime=0
+[04/23 19:28:05] sysload=0 (0) cputime=0
+[04/23 19:29:05] sysload=0 (0) cputime=15625
+[04/23 19:30:05] sysload=0 (0) cputime=0
+[04/23 19:31:05] sysload=0 (0) cputime=0
+[04/23 19:32:05] sysload=0 (0) cputime=0
+[04/23 19:33:05] sysload=0 (0) cputime=0
+[04/23 19:34:05] sysload=0 (0) cputime=0
+[04/23 19:35:05] sysload=0 (0) cputime=0
+[04/23 19:36:05] sysload=0 (0) cputime=0
+[04/23 19:37:05] sysload=0 (0) cputime=0
+[04/23 19:38:05] sysload=0 (0) cputime=15625
+[04/23 19:39:05] sysload=0 (0) cputime=0
+[04/23 19:40:05] sysload=0 (0) cputime=0
+[04/23 19:41:05] sysload=0 (0) cputime=0
+[04/23 19:42:05] sysload=0 (0) cputime=0
+[04/23 19:43:05] sysload=0 (0) cputime=0
+[04/23 19:43:07] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 00
+[04/23 19:44:05] sysload=0 (0) cputime=0
+[04/23 19:45:05] sysload=0 (0) cputime=0
+[04/23 19:46:05] sysload=0 (0) cputime=0
+[04/23 19:47:05] sysload=0 (0) cputime=0
+[04/23 19:48:05] sysload=0 (0) cputime=0
+[04/23 19:49:05] sysload=0 (0) cputime=0
+[04/23 19:50:05] sysload=0 (0) cputime=0
+[04/23 19:51:05] sysload=0 (0) cputime=0
+[04/23 19:52:05] sysload=0 (0) cputime=0
+[04/23 19:53:05] sysload=0 (0) cputime=0
+[04/23 19:54:05] sysload=0 (0) cputime=0
+[04/23 19:55:05] sysload=0 (0) cputime=0
+[04/23 19:56:05] sysload=0 (0) cputime=0
+[04/23 19:57:05] sysload=0 (0) cputime=0
+[04/23 19:58:05] sysload=0 (0) cputime=0
+[04/23 19:59:05] sysload=0 (0) cputime=15625
+[04/23 20:00:05] sysload=0 (0) cputime=0
+[04/23 20:01:05] sysload=0 (0) cputime=15625
+[04/23 20:02:05] sysload=0 (0) cputime=0
+[04/23 20:03:05] sysload=0 (0) cputime=0
+[04/23 20:04:05] sysload=0 (0) cputime=31250
+[04/23 20:05:05] sysload=0 (0) cputime=0
+[04/23 20:06:05] sysload=0 (0) cputime=0
+[04/23 20:07:05] sysload=0 (0) cputime=15625
+[04/23 20:08:05] sysload=0 (0) cputime=15625
+[04/23 20:09:05] sysload=0 (0) cputime=0
+[04/23 20:10:05] sysload=0 (0) cputime=0
+[04/23 20:11:05] sysload=0 (0) cputime=0
+[04/23 20:12:05] sysload=0 (0) cputime=0
+[04/23 20:13:05] sysload=0 (0) cputime=0
+[04/23 20:13:38] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 00
+[04/23 20:14:05] sysload=0 (0) cputime=15625
+[04/23 20:15:05] sysload=0 (0) cputime=15625
+[04/23 20:16:05] sysload=0 (0) cputime=0
+[04/23 20:17:05] sysload=0 (0) cputime=15625
+[04/23 20:18:05] sysload=0 (0) cputime=0
+[04/23 20:19:05] sysload=0 (0) cputime=0
+[04/23 20:20:05] sysload=0 (0) cputime=0
+[04/23 20:21:05] sysload=0 (0) cputime=0
+[04/23 20:22:05] sysload=0 (0) cputime=0
+[04/23 20:23:05] sysload=0 (0) cputime=0
+[04/23 20:24:05] sysload=0 (0) cputime=0
+[04/23 20:25:05] sysload=0 (0) cputime=0
+[04/23 20:26:05] sysload=0 (0) cputime=0
+[04/23 20:27:05] sysload=0 (0) cputime=15625
+[04/23 20:28:05] sysload=0 (0) cputime=15625
+[04/23 20:29:05] sysload=0 (0) cputime=0
+[04/23 20:30:05] sysload=0 (0) cputime=0
+[04/23 20:31:05] sysload=0 (0) cputime=15625
+[04/23 20:32:05] sysload=0 (0) cputime=0
+[04/23 20:33:05] sysload=0 (0) cputime=0
+[04/23 20:34:05] sysload=0 (0) cputime=0
+[04/23 20:35:05] sysload=0 (0) cputime=0
+[04/23 20:36:05] sysload=0 (0) cputime=15625
+[04/23 20:37:05] sysload=0 (0) cputime=0
+[04/23 20:38:05] sysload=0 (0) cputime=0
+[04/23 20:39:05] sysload=0 (0) cputime=0
+[04/23 20:40:05] sysload=0 (0) cputime=0
+[04/23 20:41:05] sysload=0 (0) cputime=15625
+[04/23 20:42:05] sysload=0 (0) cputime=15625
+[04/23 20:43:05] sysload=0 (0) cputime=0
+[04/23 20:44:05] sysload=0 (0) cputime=15625
+[04/23 20:44:09] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 00
+[04/23 20:45:05] sysload=0 (0) cputime=62500
+[04/23 20:46:05] sysload=0 (0) cputime=31250
+[04/23 20:47:05] sysload=0 (0) cputime=31250
+[04/23 20:48:05] sysload=0 (0) cputime=15625
+[04/23 20:49:05] sysload=0 (0) cputime=0
+[04/23 20:50:05] sysload=0 (0) cputime=0
+[04/23 20:51:05] sysload=0 (0) cputime=15625
+[04/23 20:52:05] sysload=0 (0) cputime=0
+[04/23 20:53:05] sysload=0 (0) cputime=0
+[04/23 20:54:05] sysload=0 (0) cputime=0
+[04/23 20:55:05] sysload=0 (0) cputime=0
+[04/23 20:56:05] sysload=0 (0) cputime=0
+[04/23 20:57:05] sysload=0 (0) cputime=0
+[04/23 20:58:05] sysload=0 (0) cputime=0
+[04/23 20:59:05] sysload=0 (0) cputime=0
+[04/23 21:00:05] sysload=5 (0) cputime=15625
+[04/23 21:01:05] sysload=0 (0) cputime=0
+[04/23 21:02:05] sysload=0 (0) cputime=15625
+[04/23 21:03:05] sysload=0 (0) cputime=15625
+[04/23 21:04:05] sysload=0 (0) cputime=0
+[04/23 21:05:05] sysload=0 (0) cputime=0
+[04/23 21:06:05] sysload=0 (0) cputime=0
+[04/23 21:06:22] Client#1 connected from 10.66.0.14 (1 connections) on interface 10.66.0.14
+Account qrak logged in from 10.66.0.14
+[04/23 21:06:26] Client#1 (10.66.0.14): disconnected (account qrak)
+Client#2 connected from 127.0.0.1 (1 connections) on interface 127.0.0.1
+Account qrak logged in from 127.0.0.1
+[04/23 21:06:27] Account qrak selecting character Nieznajomy
+[04/23 21:06:28] [scripts/sc.ecl]: Off-Log[04-23 21:06:28]: Nieznajomy/qrak IP: 127.0.0.1
+[04/23 21:06:59] Client#2 (127.0.0.1): disconnected (account qrak)
+Client#2: Disconnecting client due to send() error (1): 10038
+[04/23 21:07:03] Shutting down...
+Scheduler passes: 8699
+Script passes:    4401626
+Script                                       cycles  invoc    cyc/invoc      %
+pkg/character/chclient.ecl                      367      1          367 0.01
+pkg/character/checkrep.ecl                       35      1           35 0.00
+pkg/crafting/economy.ecl                      22259      1        22259 0.50
+pkg/crafting/start.ecl                           84      1           84 0.00
+pkg/hooks/attackhook.ecl                         90      1           90 0.00
+pkg/hooks/attrcore.ecl                        17198      1        17198 0.39
+pkg/hooks/checkskill.ecl                         11      1           11 0.00
+pkg/hooks/playerhook.ecl                       1937      1         1937 0.04
+pkg/hooks/playerspeech.ecl                       76      1           76 0.00
+pkg/hooks/push.ecl                               11      1           11 0.00
+pkg/hooks/regen.ecl                            1611      1         1611 0.04
+pkg/hooks/regenhook.ecl                        1753      1         1753 0.04
+pkg/hooks/repsys.ecl                              9      1            9 0.00
+pkg/items/guildstone/guildctl.ecl               354      1          354 0.01
+pkg/items/guildstone/start.ecl                   84      1           84 0.00
+pkg/items/sysbook/writable.ecl                   12      6            2 0.00
+pkg/items/waypoints/start.ecl                    66      1           66 0.00
+pkg/magic/magiceffects/checklongspells.ecl         2191      1         2191 0.05
+pkg/magic/magiceffects/modcore.ecl               78      1           78 0.00
+pkg/magic/magiceffects/npcmodcore.ecl           666      1          666 0.01
+pkg/packets/p_attack/attack.ecl                  10      1           10 0.00
+pkg/packets/p_BFs/subp_2C/BFsub2C.ecl             7      1            7 0.00
+pkg/packets/p_BFs/subp_party/phook_party.ecl            5      1            5 0.00
+pkg/packets/p_clientmacro/subp_opendoor/opendoor.ecl            5      1            5 0.00
+pkg/packets/p_info/update.ecl                    37      1           37 0.00
+pkg/packets/p_login/h_login.ecl                2783      1         2783 0.06
+pkg/packets/p_misc/misc.ecl                     207      1          207 0.00
+pkg/packets/p_shop/shop.ecl                      28      1           28 0.00
+pkg/packets/p_speech/speech.ecl                  44      1           44 0.00
+pkg/packets/p_tooltip/tooltip.ecl              2589      1         2589 0.06
+pkg/packets/p_update/update.ecl                 142      1          142 0.00
+pkg/systems/champions/champcore.ecl         3603192      1      3603192 80.82
+pkg/systems/champions/start.ecl                  84      1           84 0.00
+pkg/systems/combat/chekShields.ecl                9      1            9 0.00
+pkg/systems/combat/equip.ecl                   1812      3          604 0.04
+pkg/systems/eventcore/event_control.ecl        11017      1        11017 0.25
+pkg/systems/eventcore/start.ecl                  84      1           84 0.00
+pkg/systems/globchk/start.ecl                    33      1           33 0.00
+pkg/systems/happyhour/happyhour.ecl          208158      1       208158 4.67
+pkg/systems/happyhour/start.ecl                  84      1           84 0.00
+pkg/systems/jail/jailout.ecl                   1661      1         1661 0.04
+pkg/systems/jail/start.ecl                       84      1           84 0.00
+pkg/systems/mail/mail_ctrl.ecl                25941      1        25941 0.58
+pkg/systems/mail/start.ecl                       84      1           84 0.00
+pkg/systems/makrocheck/makrocheck.ecl           286      1          286 0.01
+pkg/systems/makrocheck/start.ecl                 84      1           84 0.00
+pkg/systems/npcguilds/ngd_ctrl.ecl             2702      1         2702 0.06
+pkg/systems/npcguilds/start.ecl                  84      1           84 0.00
+pkg/systems/reslogon/checkbans.ecl             1160      1         1160 0.03
+pkg/systems/reslogon/checkrl.ecl                214      1          214 0.00
+pkg/systems/reslogon/logon.ecl                    8      1            8 0.00
+pkg/systems/reslogon/petsecurecore.ecl          915      1          915 0.02
+pkg/systems/reslogon/start.ecl                  246      1          246 0.01
+pkg/systems/saver/saver.ecl                    8462      1         8462 0.19
+pkg/systems/saver/start.ecl                      84      1           84 0.00
+pkg/systems/tips/logon.ecl                       26      1           26 0.00
+pkg/systems/weather/start.ecl                    84      1           84 0.00
+pkg/systems/weather/startweather.ecl         406721      1       406721 9.12
+scripts/ai/traveler.ecl                       41716      1        41716 0.94
+scripts/misc/equiptest.ecl                       66      6           11 0.00
+scripts/misc/logoff.ecl                         349      1          349 0.01
+scripts/misc/logofftest.ecl                     403      1          403 0.01
+scripts/misc/logon.ecl                         7222      1         7222 0.16
+scripts/sc.ecl                                 3841      1         3841 0.09
+scripts/shardinfo.ecl                         76549      1        76549 1.72
+scripts/start.ecl                               319      1          319 0.01
+Closing logfile.
+[04/23 21:13:06] Logfile opened.
+POL098.2-2009-10-13 Beer and Waffles (VS.NET 2005) compiled on Oct 13 2009 21:04:50 running.
+[04/23 21:13:14] Game is active.
+[pkg/systems/eventcore/event_control.ecl]: [EventControl]: Event list prepared. Found 0 events active.
+[04/23 21:13:35] Client#1 connected from 10.66.0.14 (1 connections) on interface 10.66.0.14
+Account qrak logged in from 10.66.0.14
+[04/23 21:13:37] Client#1 (10.66.0.14): disconnected (account qrak)
+Client#2 connected from 127.0.0.1 (1 connections) on interface 127.0.0.1
+Account qrak logged in from 127.0.0.1
+[04/23 21:13:38] Account qrak selecting character Nieznajomy
+[04/23 21:13:39] [scripts/sc.ecl]: Off-Log[04-23 21:13:39]: Nieznajomy/qrak IP: 127.0.0.1
+[04/23 21:14:14] sysload=0 (0) cputime=328125
+[04/23 21:15:14] sysload=0 (0) cputime=93750
+[04/23 21:16:14] sysload=0 (0) cputime=0
+[04/23 21:17:14] sysload=0 (0) cputime=15625
+[04/23 21:18:14] sysload=0 (0) cputime=0
+[04/23 21:19:14] sysload=3 (0) cputime=31250
+[04/23 21:20:14] sysload=0 (0) cputime=0
+[04/23 21:21:14] sysload=0 (0) cputime=46875
+[04/23 21:22:14] sysload=0 (0) cputime=0
+[04/23 21:23:14] sysload=0 (0) cputime=15625
+[04/23 21:24:14] sysload=0 (0) cputime=0
+[04/23 21:25:14] sysload=0 (0) cputime=31250
+[04/23 21:26:14] sysload=0 (0) cputime=31250
+[04/23 21:27:14] sysload=0 (0) cputime=0
+[04/23 21:28:14] sysload=0 (0) cputime=0
+[04/23 21:29:14] sysload=0 (0) cputime=0
+[04/23 21:30:14] sysload=0 (0) cputime=15625
+[04/23 21:31:14] sysload=1 (0) cputime=0
+[04/23 21:32:14] sysload=0 (0) cputime=0
+[04/23 21:33:14] sysload=0 (0) cputime=0
+[04/23 21:34:14] sysload=0 (0) cputime=15625
+[04/23 21:35:14] sysload=0 (0) cputime=15625
+[04/23 21:36:14] sysload=0 (0) cputime=0
+[04/23 21:37:14] sysload=0 (0) cputime=0
+[04/23 21:38:14] sysload=0 (0) cputime=15625
+[04/23 21:39:14] sysload=0 (0) cputime=0
+[04/23 21:39:40] Client#2 (127.0.0.1): disconnected (account qrak)
+[04/23 21:39:41] [scripts/sc.ecl]: Log-Off[04-23 21:39:41]: Nieznajomy/qrak Czas: 26:02
+[04/23 21:40:14] sysload=1 (1) cputime=31250
+[04/23 21:41:14] sysload=0 (0) cputime=0
+[04/23 21:42:14] sysload=0 (0) cputime=15625
+[04/23 21:43:14] sysload=0 (0) cputime=0
+[04/23 21:43:45] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 00
+[04/23 21:44:14] sysload=0 (0) cputime=31250
+[04/23 21:45:14] sysload=0 (0) cputime=31250
+[04/23 21:46:14] sysload=0 (0) cputime=0
+[04/23 21:47:14] sysload=0 (0) cputime=0
+[04/23 21:48:14] sysload=0 (0) cputime=0
+[04/23 21:49:14] sysload=0 (0) cputime=0
+[04/23 21:50:14] sysload=0 (0) cputime=0
+[04/23 21:51:14] sysload=0 (0) cputime=0
+[04/23 21:52:14] sysload=0 (0) cputime=0
+[04/23 21:53:14] sysload=0 (0) cputime=0
+[04/23 21:54:14] sysload=0 (0) cputime=0
+[04/23 21:55:14] sysload=0 (0) cputime=15625
+[04/23 21:56:14] sysload=0 (0) cputime=15625
+[04/23 21:57:14] sysload=0 (0) cputime=15625
+[04/23 21:58:14] sysload=0 (0) cputime=0
+[04/23 21:59:14] sysload=0 (0) cputime=15625
+[04/23 22:00:14] sysload=0 (0) cputime=0
+[04/23 22:01:14] sysload=0 (0) cputime=15625
+[04/23 22:02:14] sysload=0 (0) cputime=15625
+[04/23 22:03:14] sysload=0 (0) cputime=0
+[04/23 22:04:14] sysload=0 (0) cputime=15625
+[04/23 22:05:14] sysload=0 (0) cputime=15625
+[04/23 22:06:14] sysload=0 (0) cputime=0
+[04/23 22:07:14] sysload=0 (0) cputime=0
+[04/23 22:08:14] sysload=0 (0) cputime=0
+[04/23 22:09:14] sysload=0 (0) cputime=0
+[04/23 22:10:14] sysload=0 (0) cputime=0
+[04/23 22:11:14] sysload=0 (0) cputime=0
+[04/23 22:12:14] sysload=0 (0) cputime=0
+[04/23 22:13:14] sysload=0 (0) cputime=0
+[04/23 22:14:14] sysload=0 (0) cputime=0
+[04/23 22:14:16] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 00
+[04/23 22:15:14] sysload=0 (0) cputime=15625
+[04/23 22:16:14] sysload=0 (0) cputime=0
+[04/23 22:17:14] sysload=0 (0) cputime=31250
+[04/23 22:18:14] sysload=0 (0) cputime=0
+[04/23 22:19:14] sysload=0 (0) cputime=0
+[04/23 22:20:14] sysload=0 (0) cputime=0
+[04/23 22:21:14] sysload=0 (0) cputime=31250
+[04/23 22:22:14] sysload=0 (0) cputime=0
+[04/23 22:23:14] sysload=0 (0) cputime=0
+[05/05 16:59:10] Logfile opened.
+POL098.2-2009-10-13 Beer and Waffles (VS.NET 2005) compiled on Oct 13 2009 21:04:50 running.
+[05/05 16:59:19] Game is active.
+[pkg/systems/eventcore/event_control.ecl]: [EventControl]: Event list prepared. Found 0 events active.
+[05/05 17:00:19] sysload=3 (0) cputime=93750
+[05/05 17:01:19] sysload=0 (0) cputime=0
+[05/05 17:02:19] sysload=0 (0) cputime=0
+[05/05 17:02:55] Client#1 connected from 192.168.1.138 (1 connections) on interface 192.168.1.138
+Account qrak logged in from 192.168.1.138
+[05/05 17:02:56] Client#1 (192.168.1.138): disconnected (account qrak)
+Client#2 connected from 127.0.0.1 (1 connections) on interface 127.0.0.1
+Account qrak logged in from 127.0.0.1
+[05/05 17:02:57] Account qrak selecting character Nieznajomy
+[scripts/sc.ecl]: Off-Log[05-05 17:02:57]: Nieznajomy/qrak IP: 127.0.0.1
+[05/05 17:03:13] Client#2 (127.0.0.1): disconnected (account qrak)
+[scripts/sc.ecl]: Log-Off[05-05 17:03:13]: Nieznajomy/qrak Czas: 16
+[05/05 17:03:19] sysload=1 (1) cputime=343750
+[05/05 17:03:36] Client#3 connected from 10.66.0.14 (1 connections) on interface 10.66.0.14
+Account qrak logged in from 10.66.0.14
+[05/05 17:03:37] Client#3 (10.66.0.14): disconnected (account qrak)
+Client#4 connected from 127.0.0.1 (1 connections) on interface 127.0.0.1
+Account qrak logged in from 127.0.0.1
+[05/05 17:03:38] Account qrak selecting character Nieznajomy
+[scripts/sc.ecl]: Off-Log[05-05 17:03:38]: Nieznajomy/qrak IP: 127.0.0.1
+[05/05 17:04:05] [scripts/ai/merchant.ecl]: [Info]: [Merchant] Stworzono Storage [Merchant Box].
+[scripts/ai/merchant.ecl]: [Info]: [Merchant] Stworzono kontener [alchemist Box] w Storage [Merchant Box].
+[05/05 17:04:19] sysload=0 (0) cputime=281250
+[05/05 17:05:19] sysload=0 (0) cputime=15625
+[05/05 17:06:19] sysload=0 (0) cputime=0
+[05/05 17:07:19] sysload=0 (0) cputime=0
+[05/05 17:07:48] [scripts/ai/merchant.ecl]: [Info]: [Merchant] Stworzono kontener [OldPB Box] w Storage [Merchant Box].
+[05/05 17:08:19] sysload=0 (0) cputime=31250
+[05/05 17:09:19] sysload=0 (0) cputime=15625
+[05/05 17:10:19] sysload=0 (0) cputime=46875
+[05/05 17:11:02] [scripts/ai/merchant.ecl]: [Info]: [Merchant] Stworzono kontener [blacksmith Box] w Storage [Merchant Box].
+[05/05 17:11:19] sysload=0 (0) cputime=140625
+[05/05 17:12:19] sysload=0 (0) cputime=125000
+[05/05 17:13:19] sysload=0 (0) cputime=0
+[05/05 17:14:19] sysload=0 (0) cputime=15625
+[05/05 17:15:19] sysload=0 (0) cputime=15625
+[05/05 17:16:19] sysload=0 (0) cputime=15625
+[05/05 17:17:19] sysload=0 (0) cputime=62500
+[05/05 17:18:19] sysload=0 (0) cputime=15625
+[05/05 17:19:19] sysload=1 (0) cputime=15625
+[05/05 17:20:19] sysload=0 (0) cputime=15625
+[05/05 17:21:19] sysload=1 (0) cputime=171875
+[05/05 17:21:46] [scripts/ai/storeman.ecl]: [Info]: [FindStoreBox] Nieznajomy/2 Tworzenie magazynu.
+[05/05 17:22:19] sysload=0 (0) cputime=15625
+[05/05 17:23:19] sysload=0 (0) cputime=46875
+[05/05 17:24:19] sysload=0 (0) cputime=0
+[05/05 17:25:19] sysload=0 (0) cputime=15625
+[05/05 17:26:19] sysload=0 (0) cputime=15625
+[05/05 17:27:19] sysload=0 (0) cputime=15625
+[05/05 17:28:19] sysload=0 (0) cputime=15625
+[05/05 17:29:19] sysload=0 (0) cputime=15625
+[05/05 17:29:50] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 00
+[05/05 17:30:19] sysload=0 (0) cputime=31250
+[05/05 17:31:19] sysload=0 (0) cputime=15625
+[05/05 17:32:19] sysload=0 (0) cputime=0
+[05/05 17:33:19] sysload=0 (0) cputime=0
+[05/05 17:34:19] sysload=0 (0) cputime=0
+[05/05 17:35:19] sysload=0 (0) cputime=0
+[05/05 17:36:19] sysload=0 (0) cputime=0
+[05/05 17:37:19] sysload=0 (0) cputime=15625
+[05/05 17:38:19] sysload=0 (0) cputime=0
+[05/05 17:39:19] sysload=0 (0) cputime=0
+[05/05 17:40:19] sysload=0 (0) cputime=31250
+[05/05 17:41:19] sysload=0 (0) cputime=0
+[05/05 17:42:19] sysload=0 (0) cputime=31250
+[05/05 17:43:19] sysload=0 (0) cputime=15625
+[05/05 17:44:19] sysload=0 (0) cputime=15625
+[05/05 17:45:19] sysload=1 (0) cputime=0
+[05/05 17:46:19] sysload=1 (0) cputime=15625
+[05/05 17:47:19] sysload=0 (0) cputime=0
+[05/05 17:48:19] sysload=0 (0) cputime=15625
+[05/05 17:49:19] sysload=0 (0) cputime=0
+[05/05 17:50:19] sysload=0 (0) cputime=62500
+[05/05 17:51:19] sysload=0 (0) cputime=0
+[05/05 17:52:19] sysload=0 (0) cputime=0
+[05/05 17:53:19] sysload=1 (0) cputime=93750
+[05/05 17:54:19] sysload=0 (0) cputime=15625
+[05/05 17:55:19] sysload=0 (0) cputime=78125
+[05/05 17:56:19] sysload=0 (0) cputime=31250
+[05/05 17:57:19] sysload=0 (0) cputime=0
+[05/05 17:58:19] sysload=0 (0) cputime=62500
+[05/05 17:59:19] sysload=0 (0) cputime=109375
+[05/05 18:00:19] sysload=0 (0) cputime=31250
+[05/05 18:00:21] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 00
+[05/05 18:01:19] sysload=0 (0) cputime=46875
+[05/05 18:02:19] sysload=0 (0) cputime=0
+[05/05 18:03:19] sysload=0 (0) cputime=31250
+[05/05 18:04:19] sysload=0 (0) cputime=0
+[05/05 18:05:19] sysload=0 (0) cputime=0
+[05/05 18:06:19] sysload=0 (0) cputime=0
+[05/05 18:07:19] sysload=0 (0) cputime=31250
+[05/05 18:08:19] sysload=0 (0) cputime=15625
+[05/05 18:09:19] sysload=0 (0) cputime=31250
+[05/05 18:10:19] sysload=0 (0) cputime=0
+[05/05 18:11:19] sysload=0 (0) cputime=15625
+[05/05 18:12:19] sysload=0 (0) cputime=15625
+[05/05 18:13:19] sysload=0 (0) cputime=15625
+[05/05 18:14:19] sysload=0 (0) cputime=0
+[05/05 18:15:19] sysload=0 (0) cputime=0
+[05/05 18:16:19] sysload=0 (0) cputime=0
+[05/05 18:17:19] sysload=1 (0) cputime=0
+[05/05 18:18:19] sysload=0 (0) cputime=0
+[05/05 18:19:19] sysload=0 (0) cputime=0
+[05/05 18:20:19] sysload=0 (0) cputime=0
+[05/05 18:21:19] sysload=0 (0) cputime=0
+[05/05 18:22:19] sysload=0 (0) cputime=15625
+[05/05 18:23:00] Client#4 (127.0.0.1): disconnected (account qrak)
+[scripts/sc.ecl]: Log-Off[05-05 18:23:00]: Nieznajomy/qrak Czas: 01:19:22
+[05/05 18:23:19] sysload=0 (0) cputime=15625
+[05/05 18:24:19] sysload=0 (0) cputime=15625
+[05/05 18:25:19] sysload=0 (0) cputime=15625
+[05/05 18:26:19] sysload=0 (0) cputime=0
+[05/05 18:27:19] sysload=0 (0) cputime=0
+[05/05 18:28:19] sysload=0 (0) cputime=15625
+[05/05 18:29:19] sysload=0 (0) cputime=15625
+[05/05 18:30:19] sysload=0 (0) cputime=0
+[05/05 18:30:52] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 00
+[05/05 18:31:19] sysload=0 (0) cputime=46875
+[05/05 18:32:19] sysload=0 (0) cputime=15625
+[05/05 19:19:43] Logfile opened.
+[05/05 19:19:43] POL099-2014-06-29 Compiled For Wonsz Server (VS.NET 2013 - 64bit) compiled on May  5 2015 18:54:00 running.
+[05/05 19:19:43] Game is active.
+[05/05 19:19:43] [pkg/systems/eventcore/event_control.ecl]: [EventControl]: Event list prepared. Found 0 events active.
+[05/05 19:20:43] sysload=11 (1) cputime=31250
+[05/05 19:21:43] sysload=3 (0) cputime=15625
+[05/05 19:22:36] Client#1 connected from 10.66.0.14 (1 connections) on interface 10.66.0.14
+[05/05 19:22:36] Account qrak logged in from 10.66.0.14
+[05/05 19:22:37] Client#1 (10.66.0.14): disconnected (account qrak)
+[05/05 19:22:37] Client#2 connected from 127.0.0.1 (1 connections) on interface 127.0.0.1
+[05/05 19:22:37] Account qrak logged in from 127.0.0.1
+[05/05 19:22:38] Account qrak selecting character Nieznajomy
+[05/05 19:22:38] [pkg/character/creation.ecl]: [Error]: Nie udalo sie zalozyc przedmiotu podczas zakladania postaci: Serial: 1073745609 Obj: Robe Konto: error{ errortext = "Object does not support members" }
+[05/05 19:22:38] [scripts/sc.ecl]: Off-Log[05-05 19:22:38]: Nieznajomy/qrak IP: 127.0.0.1
+[05/05 19:22:43] sysload=3 (0) cputime=343750
+[05/05 19:23:43] sysload=1 (0) cputime=187500
+[05/05 19:24:43] sysload=1 (0) cputime=15625
+[05/05 19:25:00] Exception in: pkg/systems/boat/shipdeed.ecl PC=475: Objtype not defined : 0x1F010
+ PC < nLines: (476 < 4959) 
+[05/05 19:25:00] 470:  470: local #1
+[05/05 19:25:00] 471:  471: local #4
+[05/05 19:25:00] 472:  472: local #0
+[05/05 19:25:00] 473:  473: local #5
+[05/05 19:25:00] 474:  474: get member id 'realm' (112)
+[05/05 19:25:00] 475:  475: Func(2,73): CreateMultiAtLocation
+[05/05 19:25:00] 476: >476: :=
+[05/05 19:25:00] 477:  477: #
+[05/05 19:25:00] 478:  478: local #7
+[05/05 19:25:00] 479:  479: if true goto 491
+[05/05 19:25:00] 480:  480: local #5
+[05/05 19:25:43] sysload=0 (0) cputime=187500
+[05/05 19:25:54] Client#2 (127.0.0.1): disconnected (account qrak)
+[05/05 19:25:58] Shutting down...
+[05/05 19:25:58] Writing data files...Data save completed in 2 ms. 38 total.
+[05/05 19:25:58] Scheduler passes: 384
+Script passes:    488949
+[05/05 19:25:58] Script                                       cycles  incov    cyc/invoc      %
+scripts/misc/death.ecl                         2298      1         2298 0.429712
+pkg/character/chclient.ecl                     2397      1         2397 0.448224
+pkg/character/choose.ecl                     203913      1       203913 38.1305
+pkg/character/creation.ecl                      457      1          457 0.0854562
+pkg/crafting/economy.ecl                       1604      1         1604 0.299938
+pkg/crafting/start.ecl                           84      1           84 0.0157075
+pkg/hooks/attackhook.ecl                         90      1           90 0.0168294
+pkg/hooks/attrcore.ecl                        34552      1        34552 6.46101
+pkg/hooks/checkskill.ecl                         11      1           11 0.00205693
+pkg/hooks/playerhook.ecl                       6285      1         6285 1.17526
+pkg/hooks/playerspeech.ecl                       76      1           76 0.0142115
+pkg/hooks/push.ecl                               24      1           24 0.00448785
+pkg/hooks/regen.ecl                            5586      1         5586 1.04455
+pkg/hooks/regenhook.ecl                       13702      1        13702 2.56219
+pkg/hooks/repsys.ecl                            562      1          562 0.105091
+pkg/items/guildstone/guildctl.ecl                78      1           78 0.0145855
+pkg/items/guildstone/start.ecl                   84      1           84 0.0157075
+pkg/items/sysbook/writable.ecl                   12      6            2 0.00224393
+pkg/items/waypoints/start.ecl                    66      1           66 0.0123416
+pkg/magic/magiceffects/checklongspells.ecl         2247      1         2247 0.420175
+pkg/magic/magiceffects/modcore.ecl              118      1          118 0.0220653
+pkg/magic/magiceffects/npcmodcore.ecl           114      1          114 0.0213173
+pkg/packets/p_attack/attack.ecl                4451      1         4451 0.83231
+pkg/packets/p_BFs/subp_2C/BFsub2C.ecl             7      1            7 0.00130896
+pkg/packets/p_BFs/subp_party/phook_party.ecl            5      1            5 0.000934969
+pkg/packets/p_clientmacro/subp_opendoor/opendoor.ecl            5      1            5 0.000934969
+pkg/packets/p_info/update.ecl                    37      1           37 0.00691877
+pkg/packets/p_login/h_login.ecl                3063      1         3063 0.572762
+pkg/packets/p_misc/misc.ecl                    1592      1         1592 0.297694
+pkg/packets/p_shop/shop.ecl                      28      1           28 0.00523583
+pkg/packets/p_speech/speech.ecl                 561      1          561 0.104904
+pkg/packets/p_tooltip/tooltip.ecl             10957      1        10957 2.04889
+pkg/packets/p_update/update.ecl                1480      1         1480 0.276751
+pkg/systems/champions/champcore.ecl          157622      1       157622 29.4743
+pkg/systems/champions/start.ecl                  84      1           84 0.0157075
+pkg/systems/combat/chekShields.ecl                9      1            9 0.00168294
+pkg/systems/combat/destroy.ecl                   82      1           82 0.0153335
+pkg/systems/combat/dodamage.ecl                 517      1          517 0.0966758
+pkg/systems/combat/equip.ecl                   5411     22          245 1.01182
+pkg/systems/eventcore/event_control.ecl          617      1          617 0.115375
+pkg/systems/eventcore/start.ecl                  84      1           84 0.0157075
+pkg/systems/globchk/start.ecl                    33      1           33 0.0061708
+pkg/systems/happyhour/happyhour.ecl           10376      1        10376 1.94025
+pkg/systems/happyhour/start.ecl                  84      1           84 0.0157075
+pkg/systems/jail/jailout.ecl                    143      1          143 0.0267401
+pkg/systems/jail/start.ecl                       84      1           84 0.0157075
+pkg/systems/mail/mail_ctrl.ecl                 1309      1         1309 0.244775
+pkg/systems/mail/start.ecl                       84      1           84 0.0157075
+pkg/systems/makrocheck/makrocheck.ecl            79      1           79 0.0147725
+pkg/systems/makrocheck/start.ecl                 84      1           84 0.0157075
+pkg/systems/npcguilds/ngd_ctrl.ecl              218      1          218 0.0407647
+pkg/systems/npcguilds/start.ecl                  84      1           84 0.0157075
+pkg/systems/reslogon/checkbans.ecl              171      1          171 0.0319759
+pkg/systems/reslogon/checkrl.ecl                214      1          214 0.0400167
+pkg/systems/reslogon/logon.ecl                    8      1            8 0.00149595
+pkg/systems/reslogon/petsecurecore.ecl          157      1          157 0.029358
+pkg/systems/reslogon/start.ecl                  246      1          246 0.0460005
+pkg/systems/saver/saver.ecl                     258      1          258 0.0482444
+pkg/systems/saver/start.ecl                      84      1           84 0.0157075
+pkg/systems/tips/logon.ecl                       26      1           26 0.00486184
+pkg/systems/tips/tip_watcher.ecl               1089      2          544 0.203636
+pkg/systems/weather/start.ecl                    84      1           84 0.0157075
+pkg/systems/weather/startweather.ecl          19018      1        19018 3.55625
+scripts/ai/animal.ecl                          1616      1         1616 0.302182
+scripts/ai/merchant.ecl                        1278      3          426 0.238978
+scripts/ai/spellkillpcs.ecl                    2194      1         2194 0.410264
+scripts/ai/storeman.ecl                         414      1          414 0.0774154
+scripts/ai/tamed.ecl                          20152      2        10076 3.7683
+scripts/ai/traveler.ecl                         414      1          414 0.0774154
+scripts/control/cont_can_ins.ecl                801      3          267 0.149782
+scripts/control/cont_on_ins.ecl                 954      5          190 0.178392
+scripts/control/corp_ctrl.ecl                   109      1          109 0.0203823
+scripts/control/npcc_can_ins.ecl                100      2           50 0.0186994
+scripts/misc/equiptest.ecl                      429     39           11 0.0802204
+scripts/misc/logoff.ecl                         349      1          349 0.0652608
+scripts/misc/logofftest.ecl                     403      1          403 0.0753585
+scripts/misc/logon.ecl                         7227      1         7227 1.3514
+scripts/npcupkeep.ecl                           460      2          230 0.0860172
+scripts/sc.ecl                                 2139      1         2139 0.39998
+scripts/shardinfo.ecl                           514      1          514 0.0961148
+scripts/start.ecl                               319      1          319 0.059651
+[05/05 19:25:58] Ouch! UObject::destroy() with count()==0
+[05/05 19:26:02] Logfile opened.
+[05/05 19:26:02] POL099-2014-06-29 Compiled For Wonsz Server (VS.NET 2013 - 64bit) compiled on May  5 2015 18:54:00 running.
+[05/05 19:26:02] Game is active.
+[05/05 19:26:02] [pkg/systems/eventcore/event_control.ecl]: [EventControl]: Event list prepared. Found 0 events active.
+[05/05 19:26:02] Client#1 connected from 10.66.0.14 (1 connections) on interface 10.66.0.14
+[05/05 19:26:02] Account qrak logged in from 10.66.0.14
+[05/05 19:26:02] [pkg/systems/boat/boat.ecl]: [Error]: [BoatControl] Lodka nie ma sternika 1073745619 Loc: 2441,563,-5 britannia
+[05/05 19:26:04] Client#1 (10.66.0.14): disconnected (account qrak)
+[05/05 19:26:04] Client#2 connected from 127.0.0.1 (1 connections) on interface 127.0.0.1
+[05/05 19:26:04] Account qrak logged in from 127.0.0.1
+[05/05 19:26:08] Account qrak selecting character Nieznajomy
+[05/05 19:26:08] [pkg/character/creation.ecl]: [Error]: Nie udalo sie zalozyc przedmiotu podczas zakladania postaci: Serial: 1073746341 Obj: Robe Konto: error{ errortext = "Object does not support members" }
+[05/05 19:26:08] [scripts/sc.ecl]: Off-Log[05-05 19:26:08]: Nieznajomy/qrak IP: 127.0.0.1
+[05/05 19:27:02] sysload=3 (0) cputime=531250
+[05/05 19:28:02] sysload=3 (0) cputime=0
+[05/05 19:29:02] sysload=3 (0) cputime=0
+[05/05 19:30:02] sysload=0 (0) cputime=0
+[05/05 19:31:02] sysload=3 (0) cputime=15625
+[05/05 19:32:02] sysload=0 (0) cputime=0
+[05/05 19:33:02] sysload=1 (0) cputime=0
+[05/05 19:34:02] sysload=1 (0) cputime=15625
+[05/05 19:35:02] sysload=0 (0) cputime=0
+[05/05 19:36:02] sysload=0 (0) cputime=0
+[05/05 19:37:02] sysload=0 (0) cputime=15625
+[05/05 19:38:02] sysload=3 (0) cputime=0
+[05/05 19:39:02] sysload=0 (0) cputime=0
+[05/05 19:40:02] sysload=0 (0) cputime=15625
+[05/05 19:41:02] sysload=1 (0) cputime=0
+[05/05 19:42:02] sysload=0 (0) cputime=0
+[05/05 19:43:02] sysload=3 (0) cputime=15625
+[05/05 19:44:02] sysload=3 (0) cputime=0
+[05/05 19:45:02] sysload=0 (0) cputime=0
+[05/05 19:46:02] sysload=1 (0) cputime=0
+[05/05 19:47:02] sysload=0 (0) cputime=0
+[05/05 19:48:02] sysload=0 (0) cputime=15625
+[05/05 19:49:02] sysload=1 (0) cputime=0
+[05/05 19:50:02] sysload=0 (0) cputime=0
+[05/05 19:51:02] sysload=0 (0) cputime=0
+[05/05 19:52:02] sysload=0 (0) cputime=0
+[05/05 19:53:02] sysload=3 (0) cputime=0
+[05/05 19:54:02] sysload=0 (0) cputime=0
+[05/05 19:55:02] sysload=0 (0) cputime=0
+[05/05 19:56:02] sysload=0 (0) cputime=0
+[05/05 19:56:33] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[05/05 19:56:33] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 00
+[05/05 19:57:02] sysload=0 (0) cputime=343750
+[05/05 19:58:02] sysload=1 (0) cputime=0
+[05/05 19:59:02] sysload=0 (0) cputime=31250
+[05/05 20:00:02] sysload=1 (0) cputime=0
+[05/05 20:01:02] sysload=0 (0) cputime=0
+[05/05 20:02:02] sysload=0 (0) cputime=62500
+[05/05 20:03:02] sysload=0 (0) cputime=0
+[05/05 20:04:02] sysload=0 (0) cputime=0
+[05/05 20:05:02] sysload=0 (0) cputime=0
+[05/05 20:06:02] sysload=0 (0) cputime=0
+[05/05 20:07:02] sysload=0 (0) cputime=0
+[05/05 20:08:02] sysload=0 (0) cputime=0
+[05/05 20:09:02] sysload=0 (0) cputime=0
+[05/05 20:10:02] sysload=1 (0) cputime=0
+[05/05 20:10:31] [scripts/ai/merchant.ecl]: [Info]: [Merchant] Stworzono kontener [Kensai Box] w Storage [Merchant Box].
+[05/05 20:11:02] sysload=0 (0) cputime=62500
+[05/05 20:12:02] sysload=0 (0) cputime=0
+[05/05 20:13:02] sysload=0 (0) cputime=0
+[05/05 20:14:02] sysload=0 (0) cputime=0
+[05/05 20:15:02] sysload=0 (0) cputime=0
+[05/05 20:16:02] sysload=0 (0) cputime=0
+[05/05 20:17:02] sysload=1 (0) cputime=0
+[05/05 20:18:02] sysload=0 (0) cputime=0
+[05/05 20:19:02] sysload=0 (0) cputime=0
+[05/05 20:20:02] sysload=0 (0) cputime=0
+[05/05 20:21:02] sysload=0 (0) cputime=0
+[05/05 20:22:02] sysload=0 (0) cputime=0
+[05/05 20:23:02] sysload=0 (0) cputime=0
+[05/05 20:24:02] sysload=0 (0) cputime=0
+[05/05 20:25:02] sysload=0 (0) cputime=0
+[05/05 20:26:02] sysload=0 (0) cputime=0
+[05/05 20:27:02] sysload=0 (0) cputime=0
+[05/05 20:27:04] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[05/05 20:27:04] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 00
+[05/05 20:28:02] sysload=0 (0) cputime=125000
+[05/05 20:29:02] sysload=0 (0) cputime=0
+[05/05 20:30:02] sysload=5 (0) cputime=2453125
+[05/05 20:31:02] sysload=0 (0) cputime=0
+[05/05 20:32:02] sysload=0 (0) cputime=0
+[05/05 20:33:02] sysload=0 (0) cputime=0
+[05/05 20:34:02] sysload=0 (0) cputime=0
+[05/05 20:35:02] sysload=0 (0) cputime=15625
+[05/05 20:36:02] sysload=0 (0) cputime=0
+[05/05 20:37:02] sysload=0 (0) cputime=0
+[05/05 20:38:02] sysload=0 (0) cputime=0
+[05/05 20:39:02] sysload=45 (4) cputime=27390625
+[05/05 20:40:02] sysload=0 (0) cputime=0
+[05/05 20:41:02] sysload=0 (0) cputime=0
+[05/05 20:42:02] sysload=0 (0) cputime=0
+[05/05 20:43:02] sysload=0 (0) cputime=0
+[05/05 20:44:02] sysload=36 (3) cputime=21000000
+[05/05 20:45:02] sysload=88 (8) cputime=53843750
+[05/05 20:46:02] sysload=91 (9) cputime=56609375
+[05/05 20:47:02] sysload=96 (9) cputime=58421875
+[05/05 20:48:02] sysload=98 (10) cputime=58468750
+[05/05 20:49:02] sysload=98 (9) cputime=59578125
+[05/05 20:50:02] sysload=58 (5) cputime=35062500
+[05/05 20:51:02] sysload=0 (0) cputime=31250
+[05/05 20:52:02] sysload=1 (0) cputime=0
+[05/05 20:53:02] sysload=0 (0) cputime=0
+[05/05 20:54:02] sysload=0 (0) cputime=0
+[05/05 20:55:02] sysload=0 (0) cputime=0
+[05/05 20:56:02] sysload=0 (0) cputime=15625
+[05/05 20:57:02] sysload=15 (1) cputime=8203125
+[05/05 20:57:35] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[05/05 20:57:35] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 00
+[05/05 20:58:02] sysload=75 (7) cputime=45765625
+[05/05 20:59:02] sysload=8 (0) cputime=4078125
+[05/05 21:00:02] sysload=20 (2) cputime=11250000
+[05/05 21:01:02] sysload=100 (10) cputime=59984375
+[05/05 21:02:02] sysload=100 (10) cputime=59984375
+[05/05 21:03:02] sysload=46 (4) cputime=28859375
+[05/05 21:04:02] sysload=96 (9) cputime=57656250
+[05/05 21:05:02] sysload=95 (9) cputime=56515625
+[05/05 21:06:02] sysload=91 (9) cputime=56500000
+[05/05 21:07:02] sysload=0 (0) cputime=15625
+[05/05 21:08:02] sysload=96 (9) cputime=57703125
+[05/05 21:09:02] sysload=73 (7) cputime=44921875
+[05/05 21:10:02] sysload=33 (3) cputime=20906250
+[05/05 21:10:57] Client#2 (127.0.0.1): disconnected (account qrak)
+[05/05 21:10:59] Shutting down...
+[05/05 21:10:59] Writing data files...Data save completed in 2 ms. 14 total.
+[05/05 21:10:59] Scheduler passes: 6363
+Script passes:    4127070500
+[05/05 21:10:59] Script                                       cycles  incov    cyc/invoc      %
+scripts/ai/merchant.ecl                   301774971      1    301774971 99.9998
+scripts/misc/equiptest.ecl                        0      0            0      0
+scripts/misc/logoff.ecl                         349      1          349 0.000115649
+scripts/misc/logofftest.ecl                     403      1          403 0.000133543
+[05/05 21:39:45] Logfile opened.
+POL098.2-2009-10-13 Beer and Waffles (VS.NET 2005) compiled on Oct 13 2009 21:04:50 running.
+[05/05 21:39:48] Game is active.
+[pkg/systems/eventcore/event_control.ecl]: [EventControl]: Event list prepared. Found 0 events active.
+[05/05 21:39:50] Client#1 connected from 10.66.0.14 (1 connections) on interface 10.66.0.14
+Account qrak logged in from 10.66.0.14
+[05/05 21:39:52] Client#1 (10.66.0.14): disconnected (account qrak)
+Client#2 connected from 127.0.0.1 (1 connections) on interface 127.0.0.1
+Account qrak logged in from 127.0.0.1
+[05/05 21:39:53] Account qrak selecting character Nieznajomy
+[05/05 21:39:54] [scripts/sc.ecl]: Off-Log[05-05 21:39:53]: Nieznajomy/qrak IP: 127.0.0.1
+[05/05 21:40:48] sysload=56 (5) cputime=35578125
+[05/05 21:41:48] sysload=30 (3) cputime=18062500
+[05/05 21:42:48] sysload=28 (2) cputime=16984375
+[05/05 21:43:48] sysload=0 (0) cputime=31250
+[05/05 21:44:48] sysload=36 (3) cputime=21312500
+[05/05 21:45:48] sysload=98 (9) cputime=59406250
+[05/05 21:46:48] sysload=100 (10) cputime=59843750
+[05/05 21:47:48] sysload=96 (9) cputime=59031250
+[05/05 21:48:48] sysload=98 (9) cputime=59468750
+[05/05 21:49:48] sysload=100 (10) cputime=59671875
+[05/05 21:50:48] sysload=98 (9) cputime=59484375
+[05/05 21:51:48] sysload=78 (8) cputime=46625000
+[05/05 21:52:48] sysload=11 (1) cputime=7078125
+[05/05 21:53:48] sysload=31 (3) cputime=20343750
+[05/05 21:54:48] sysload=70 (7) cputime=41281250
+[05/05 21:55:48] sysload=100 (10) cputime=59953125
+[05/05 21:56:48] sysload=100 (10) cputime=59984375
+[05/05 21:57:48] sysload=88 (8) cputime=55046875
+[05/05 21:58:48] sysload=30 (3) cputime=17718750
+[05/05 21:59:48] sysload=0 (0) cputime=62500
+[05/05 22:00:48] sysload=0 (0) cputime=62500
+[05/05 22:01:48] sysload=0 (0) cputime=62500
+[05/05 22:02:48] sysload=93 (9) cputime=56250000
+[05/05 22:03:48] sysload=98 (9) cputime=59562500
+[05/05 22:04:48] sysload=96 (9) cputime=59171875
+[05/05 22:05:48] sysload=98 (9) cputime=59421875
+[05/05 22:06:48] sysload=100 (10) cputime=59953125
+[05/05 22:07:48] sysload=100 (11) cputime=60015625
+[05/05 22:08:48] sysload=98 (9) cputime=59546875
+[05/05 22:09:48] sysload=98 (9) cputime=59515625
+[05/05 22:10:19] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 00
+[05/05 22:10:48] sysload=100 (10) cputime=60234375
+[05/05 22:11:48] sysload=100 (10) cputime=59484375
+[05/05 22:12:48] sysload=100 (10) cputime=59921875
+[05/05 22:13:48] sysload=100 (10) cputime=59062500
+[05/05 22:14:48] sysload=100 (10) cputime=59500000
+[05/05 22:15:48] sysload=33 (3) cputime=20390625
+[05/05 22:16:48] sysload=0 (0) cputime=62500
+[05/05 22:17:48] sysload=0 (0) cputime=62500
+[05/05 22:18:48] sysload=0 (0) cputime=46875
+[05/05 22:19:48] sysload=0 (0) cputime=78125
+[05/05 22:20:48] sysload=0 (0) cputime=62500
+[05/05 22:21:48] sysload=13 (1) cputime=7921875
+[05/05 22:22:48] sysload=0 (0) cputime=78125
+[05/05 22:23:48] sysload=0 (0) cputime=46875
+[05/05 22:24:48] sysload=93 (24) cputime=55062500
+[05/05 22:25:48] sysload=100 (23) cputime=59968750
+[05/05 22:26:48] sysload=100 (19) cputime=60031250
+[05/05 22:27:48] sysload=100 (10) cputime=59578125
+[05/05 22:28:48] sysload=100 (10) cputime=59625000
+[05/05 22:29:48] sysload=100 (16) cputime=59937500
+[05/05 22:30:48] sysload=100 (17) cputime=60000000
+[05/05 22:31:48] sysload=100 (10) cputime=59609375
+[05/05 22:32:48] sysload=100 (10) cputime=60000000
+[05/05 22:33:48] sysload=100 (10) cputime=60000000
+[05/05 22:34:48] sysload=100 (10) cputime=59984375
+[05/05 22:35:48] sysload=100 (10) cputime=60015625
+[05/05 22:36:48] sysload=100 (10) cputime=60015625
+[05/05 22:37:48] sysload=100 (10) cputime=60000000
+[05/05 22:38:48] sysload=100 (10) cputime=59593750
+[05/05 22:39:48] sysload=100 (10) cputime=59984375
+[05/05 22:40:48] sysload=100 (10) cputime=60015625
+[05/05 22:40:50] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 00
+[05/05 22:41:48] sysload=100 (10) cputime=60265625
+[05/05 22:42:48] sysload=100 (10) cputime=60000000
+[05/05 22:43:48] sysload=100 (10) cputime=59968750
+[05/05 22:44:48] sysload=100 (10) cputime=59578125
+[05/05 22:45:48] sysload=100 (10) cputime=60000000
+[05/05 22:46:48] sysload=100 (10) cputime=59984375
+[05/05 22:47:48] sysload=100 (10) cputime=59609375
+[05/05 22:48:48] sysload=100 (10) cputime=59484375
+[05/05 22:49:48] sysload=100 (10) cputime=59953125
+[05/05 22:50:48] sysload=100 (10) cputime=59593750
+[05/05 22:51:48] sysload=100 (10) cputime=59968750
+[05/05 22:52:48] sysload=100 (10) cputime=59984375
+[05/05 22:53:48] sysload=100 (10) cputime=59546875
+[05/05 22:54:48] sysload=100 (10) cputime=59625000
+[05/05 22:55:48] sysload=100 (10) cputime=59578125
+[05/05 22:56:48] sysload=85 (8) cputime=50812500
+[05/05 22:57:48] sysload=91 (9) cputime=54859375
+[05/05 22:58:48] sysload=95 (9) cputime=56937500
+[05/05 22:59:48] sysload=90 (9) cputime=53984375
+[05/05 23:00:48] sysload=83 (8) cputime=50125000
+[05/05 23:01:48] sysload=90 (9) cputime=52796875
+[05/05 23:02:48] sysload=100 (10) cputime=59968750
+[05/05 23:03:48] sysload=76 (7) cputime=46593750
+[05/05 23:04:48] sysload=81 (8) cputime=47484375
+[05/05 23:05:48] sysload=100 (19) cputime=60000000
+[05/05 23:06:48] sysload=100 (18) cputime=60000000
+[05/05 23:07:48] sysload=100 (10) cputime=60000000
+[05/05 23:08:48] sysload=100 (10) cputime=59218750
+[05/05 23:09:48] sysload=100 (10) cputime=59609375
+[05/05 23:10:48] sysload=100 (10) cputime=59984375
+[05/05 23:11:21] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[05/05 23:11:22] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 01
+[05/05 23:11:49] sysload=100 (10) cputime=60218750
+[05/05 23:12:49] sysload=98 (9) cputime=59546875
+[05/05 23:13:49] sysload=100 (10) cputime=60000000
+[05/05 23:14:49] sysload=100 (10) cputime=59937500
+[05/05 23:15:49] sysload=100 (10) cputime=59859375
+[05/05 23:16:39] Client#2 (127.0.0.1): disconnected (account qrak)
+[05/05 23:16:40] [scripts/sc.ecl]: Log-Off[05-05 23:16:40]: Nieznajomy/qrak Czas: 01:36:45
+[05/05 23:16:49] sysload=100 (10) cputime=58906250
+[05/05 23:17:01] Client#3 connected from 192.168.1.138 (1 connections) on interface 192.168.1.138
+Incorrect password for account qrak from 192.168.1.138
+Client#3 (192.168.1.138): disconnected (account unknown)
+[05/05 23:17:06] Client#4 connected from 192.168.1.138 (1 connections) on interface 192.168.1.138
+Incorrect password for account qrak from 192.168.1.138
+Client#4 (192.168.1.138): disconnected (account unknown)
+[05/05 23:17:49] sysload=100 (10) cputime=55140625
+[05/05 23:18:49] sysload=100 (18) cputime=54375000
+[05/05 23:19:49] sysload=100 (20) cputime=56093750
+[05/05 23:20:49] sysload=100 (20) cputime=55281250
+[05/05 23:21:49] sysload=100 (20) cputime=56687500
+[05/05 23:22:49] sysload=100 (19) cputime=53953125
+[05/05 23:23:49] sysload=100 (20) cputime=57234375
+[05/05 23:24:49] sysload=100 (20) cputime=54921875
+[05/05 23:25:49] sysload=100 (19) cputime=57843750
+[05/05 23:26:49] sysload=100 (19) cputime=52312500
+[05/05 23:27:49] sysload=100 (19) cputime=58437500
+[05/05 23:28:49] sysload=100 (19) cputime=59968750
+[05/05 23:29:49] sysload=100 (12) cputime=51531250
+[05/05 23:30:49] sysload=98 (9) cputime=51625000
+[05/05 23:31:49] sysload=96 (9) cputime=52875000
+[05/05 23:32:49] sysload=98 (9) cputime=59500000
+[05/05 23:33:49] sysload=96 (9) cputime=59218750
+[05/05 23:34:49] sysload=100 (10) cputime=59968750
+[05/05 23:35:49] sysload=98 (9) cputime=59609375
+[05/05 23:36:49] sysload=98 (9) cputime=59593750
+[05/05 23:37:49] sysload=10 (1) cputime=6843750
+[05/05 23:38:49] sysload=0 (0) cputime=0
+[05/05 23:39:49] sysload=0 (0) cputime=0
+[05/05 23:40:49] sysload=0 (0) cputime=0
+[05/05 23:41:49] sysload=0 (0) cputime=0
+[05/05 23:41:53] [pkg/systems/saver/saver.ecl]: [Info]: [Saver] Zapisywanie Stanu Swiata
+[pkg/systems/saver/saver.ecl]: [Info]: [Saver] Czas zapisywania: 00
+[05/05 23:42:49] sysload=0 (0) cputime=31250
+[05/05 23:43:49] sysload=0 (0) cputime=15625
+[05/05 23:44:49] sysload=73 (7) cputime=43593750
+[05/05 23:45:49] sysload=100 (10) cputime=59937500
+[05/05 23:46:49] sysload=100 (10) cputime=59890625
+[05/05 23:47:49] sysload=98 (9) cputime=59578125
+[05/05 23:48:49] sysload=100 (17) cputime=59984375
+[05/05 23:49:49] sysload=100 (19) cputime=59968750
+[05/05 23:50:49] sysload=100 (20) cputime=60000000
+[05/05 23:51:49] sysload=100 (19) cputime=60031250
+[05/05 23:52:49] sysload=98 (11) cputime=59593750
+[05/05 23:53:49] sysload=100 (10) cputime=60000000
+[05/05 23:54:49] sysload=98 (9) cputime=59562500
+[05/05 23:55:49] sysload=96 (9) cputime=59187500
+[05/05 23:56:49] sysload=98 (9) cputime=59531250
+[05/05 23:57:49] sysload=100 (10) cputime=59968750
+[05/05 23:58:49] sysload=98 (9) cputime=59437500
+[05/05 23:59:49] sysload=100 (10) cputime=59921875

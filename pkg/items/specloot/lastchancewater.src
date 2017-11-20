@@ -1,0 +1,34 @@
+//-----------------------------------------------------------------------------
+use uo;
+
+
+include "include/checks/objchecks";
+include "include/resurrect";
+
+
+program LastChanceWater(who, item)
+  
+  SendSysMessage(who, "Kogo chcial"+ggm(who,1)+" wskrzesic?",FONT_NORMAL,COLOR_GREEN);
+
+  var dead := ObjTarget(who);
+
+  if(!isPlayer(dead))
+    SendSysMessage(who,"Nie mozesz tego uzyc.",FONT_NORMAL,COLOR_RED);
+    return;
+  endif
+
+  if (isPlayer(dead))
+    if (dead.dead)
+        if (ResurrectPlayer(dead))
+          //PlayPcEffect(dead, FX_SMOKE, 1000, 0xf, 0xe, 3);
+          SendSysMessage(who, "Wskrzesil" + ggm(who, 3) + " osobe " + dead.name+".",FONT_NORMAL,COLOR_BLUE);
+          DestroyItem(item);
+          return;
+        endif
+    else
+    SendSysMessage(who,"Nie mozesz tego uzyc.",FONT_NORMAL,COLOR_RED);
+    return;
+    endif
+  endif
+  
+endprogram

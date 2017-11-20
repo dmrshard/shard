@@ -1,0 +1,120 @@
+#
+#  NPCEQUIP.TXT: Nonplayer-Character Equipment Data
+#
+#  Delete this file along with NPCS.TXT to perform an NPC wipe
+#
+
+Item
+{
+	Serial	0x40001411
+	ObjType	0x170b
+	Graphic	0x170b
+	Color	0x9
+	X	6104
+	Y	1182
+	Z	0
+	Facing	3
+	Revision	1
+	Realm	britannia
+	CProp	Created i2
+	CProp	equipped i7
+	Layer	3
+	Container	0x7
+	DecayAt	15545
+}
+
+Item
+{
+	Serial	0x40001410
+	ObjType	0x152e
+	Graphic	0x152e
+	Color	0x9
+	X	6104
+	Y	1182
+	Z	0
+	Facing	4
+	Revision	1
+	Realm	britannia
+	CProp	Created i2
+	CProp	equipped i7
+	Layer	4
+	Container	0x7
+	DecayAt	15545
+}
+
+Item
+{
+	Serial	0x4000140f
+	ObjType	0x1efd
+	Graphic	0x1efd
+	Color	0x9
+	X	6104
+	Y	1182
+	Z	0
+	Facing	5
+	Revision	1
+	Realm	britannia
+	CProp	Created i2
+	CProp	equipped i7
+	Layer	5
+	Container	0x7
+	DecayAt	15545
+}
+
+Item
+{
+	Serial	0x40001412
+	ObjType	0x1713
+	Graphic	0x1713
+	Color	0x9
+	X	6104
+	Y	1182
+	Z	0
+	Facing	6
+	Revision	1
+	Realm	britannia
+	CProp	Created i2
+	CProp	equipped i7
+	Layer	6
+	Container	0x7
+	DecayAt	15545
+}
+
+Item
+{
+	Serial	0x40001414
+	ObjType	0x1541
+	Graphic	0x1541
+	Color	0x9
+	X	6104
+	Y	1182
+	Z	0
+	Facing	17
+	Revision	1
+	Realm	britannia
+	CProp	Created i2
+	CProp	equipped i7
+	Layer	17
+	Container	0x7
+	DecayAt	15545
+}
+
+Item
+{
+	Serial	0x40001413
+	ObjType	0x1515
+	Graphic	0x1515
+	Color	0x9
+	X	6104
+	Y	1182
+	Z	0
+	Facing	20
+	Revision	1
+	Realm	britannia
+	CProp	Created i2
+	CProp	equipped i7
+	Layer	20
+	Container	0x7
+	DecayAt	15545
+}
+

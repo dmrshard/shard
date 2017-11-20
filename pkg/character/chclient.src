@@ -1,0 +1,120 @@
+//-----------------------------------------------------------------------------
+
+use uo;
+use os;
+use cfgfile;
+
+//-----------------------------------------------------------------------------
+
+include "include/cmds/uof";
+include "include/gumps";
+include "include/move";;
+include "include/coords";
+include "include/const/uof";
+include "include/checks/geometry";
+include "include/objects/location";
+include "include/checks/stdchecks";
+include "include/player/basic";
+include "include/items";
+
+include ":housing:housing";
+include ":character:common";
+include ":character:locations";
+include ":referals:common";
+
+//-----------------------------------------------------------------------------
+
+UnloadConfigFile(CLIENTS_CFG);
+var ClientsCfg := ReadConfigFile(CLIENTS_CFG);
+var AClients   := GetConfigStringArray(ClientsCfg["Available"],"Client");
+
+//-----------------------------------------------------------------------------
+
+program CheckPlayerClient(who)
+
+  /*var Gid;
+
+  if(who.acct.GetProp("GenNewImd"))
+    Gid := GenerateNewMwGid(who);
+    if(Gid)
+      who.acct.EraseProp("GenNewImd");
+    endif
+  else
+    Gid := GetMwGid(who);
+  endif
+
+  if(Gid[1] > 10400 and Gid[1] < 11000)
+    Gid := GenerateNewMwGid(who);
+  endif
+
+  if(!Gid)
+    LogNotice("[CheckPlayerClient] "+GetRealName(who)+"/"+who.acctname+" Blad klienta.", LOGF_NO_NEED | LOGF_SCRIPTS);
+    Gid := -1;
+  endif
+
+  var LastLogIp := ReadFile(LASTLOG_PKG + who.acctname);
+
+  if(LastLogIp and LastLogIp.size())
+    var Last := UnPack(LastLogIP[LastLogIP.size()]);
+    Last[5]  := Gid[1];
+    Last[6]  := Gid[2];
+
+    LastLogIP[LastLogIP.size()] := Pack(Last);
+
+    if(LastLogIP.size() > MAX_LASTLOGIPS)
+      LastLogIP.erase(1);
+    endif
+
+    WriteFile(LASTLOG_PKG + who.acctname, LastLogIP);
+  endif
+
+  var AccIds := who.acct.GetProp("Logs");
+
+  if(!AccIds)
+    AccIds := dictionary;
+  endif
+
+  AccIds[Gid[1]] := CInt(AccIds[Gid[1]]) + 1;
+  who.acct.SetProp("Logs", AccIds);
+*/
+  sleep(8);
+  if(!IsLoggedIn(who))
+    return;
+  endif
+  
+  var WhoVer := lower(CStr(who.clientversion));
+  var Pass   := 0;
+  
+  return;
+  
+  foreach Client in AClients
+    if(WhoVer[Client])
+      Pass := 1;
+      break;
+    endif
+  endforeach
+
+  if(!Pass)
+    LogNotice("[CheckPlayerClient] "+GetRealName(who)+"/"+who.acctname+" zla wersja klienta: "+WhoVer, LOGF_FORCE_SYSLOG | LOGF_SCRIPTS);
+    SendSysMessage(who,"Logujesz sie nieprawidlowa wersja klienta, prawidlowe: ",FONT_NORMAL,COLOR_RED);
+    foreach Client in AClients
+      SendSysMessage(who, Client, FONT_NORMAL, COLOR_GREEN);
+    endforeach
+
+    InstantDisconnect(who);
+    return 0;
+  endif
+
+  if(!ValidatePlayerCreation(who))
+    start_script(":character:checkrep", who);
+  endif
+
+  /*if(IsReferalInviteTime(who))
+    StartChooseReferer(who);
+  endif*/
+  
+  return 1;
+
+endprogram
+
+//-----------------------------------------------------------------------------

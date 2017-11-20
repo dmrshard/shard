@@ -1,0 +1,111 @@
+//--------------------------------------------------------------------------------
+
+include "include/items";
+include "include/player/misc";
+include "include/tools";
+include "include/effects";
+include "include/move";
+include "include/events";
+include "include/dirs";
+
+include ":blades:cutting";
+include ":crafting:creation";
+
+//--------------------------------------------------------------------------------
+
+program UseBlade(who, blade)
+
+  if(!StandardItemCheck(who,blade,NO_COMBAT_CHECK))
+    return;
+  endif
+
+  if(!IsToolEquipped(who , blade))
+    return;
+  endif
+
+  SendSysMessage(who, "Na czym chcial"+ggm(who,1)+" to uzyc?",FONT_NORMAL,COLOR_GREEN);
+    
+  var Loc := LocTarget(who);
+  if(!StandardLocCheck(who,Loc,NO_COMBAT_CHECK | NO_ITEMCONT_CHECK | NO_DIST_CHECK | NEW_DIST_CHECK, 1))
+    return;
+  endif
+  
+  if(blade.objtype == UOBJ_SKINNINGKNIFE)
+    if(GetEffectiveSkill(who, SKILLID_INSCRIPTION) >= 110);
+      Binding(who, Loc);
+      return;
+    else
+      SendSysMessage(who,"Nie wiesz jak uzyc te przedmioty razem.",FONT_NORMAL,COLOR_RED);
+      return;
+    endif
+  endif
+  
+  CheckOtherChop(who,blade,Loc);
+  
+endprogram
+
+//--------------------------------------------------------------------------------
+
+function Binding(who, Loc)
+  
+  var twine := FindObjTypeInContainer(who.backpack,UOBJ_TWINE);
+        
+  if(!twine or twine.amount < 2)
+    SendSysMessage(who,"Musisz miec w plecaku 2 sztuki dratwy.",FONT_NORMAL,COLOR_RED);
+    return;
+  endif
+
+  if(!StandardItemCheck(who,twine))
+    return;
+  endif
+
+  if(!StandardItemCheck(who,Loc))
+    return;
+  endif
+  
+  if(Loc.objtype in GetLeatherObjTypes())
+    if(Loc.amount >= 3)
+      SendSysMessage(who, "Ktory runebook oprawic?",FONT_NORMAL,COLOR_GREEN);
+      var rb := Target(who);
+        if(!rb)
+          SendSysMessage(who, "Anulowano.",FONT_NORMAL,COLOR_RED);
+          return;
+        endif
+        
+        if(rb.objtype == UOBJ_RUNEBOOK)
+          if(!StandardItemCheck(who,rb))
+            return;
+          endif
+          
+          SendSysMessage(who, "Probujesz zmienic oprawe runebooka...",FONT_NORMAL,COLOR_GREEN);
+          
+          if(!MakeNoise(who,SOUND_EFFECT_INSCRIPTION, 1500, 0, 10))
+            return;
+          endif
+          
+          if(SubtractAmount(twine, 2) and SubtractAmount(loc, 3))
+            rb.color := Loc.color;
+            SendSysMessage(who, "Oprawil"+ggm(who,3)+" runebooka!",FONT_NORMAL,COLOR_GREEN);
+            return;
+          else
+            SendSysMessage(who, "Nie udalo sie.",FONT_NORMAL,COLOR_RED);
+            return;
+          endif
+          
+        else
+          SendSysMessage(who,"Nie wiesz co z tym zrobic.",FONT_NORMAL,COLOR_RED);
+          return;
+        endif
+    else
+      SendSysMessage(who,"Aby oprawic runebook musisz miec 3 sztuki skory.",FONT_NORMAL,COLOR_RED);
+      return;
+    endif
+  else
+    SendSysMessage(who,"Nie wiesz co z tym zrobic.",FONT_NORMAL,COLOR_RED);
+    return;   
+  endif
+  
+  
+endfunction
+
+//--------------------------------------------------------------------------------

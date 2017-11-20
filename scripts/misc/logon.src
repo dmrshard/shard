@@ -1,0 +1,84 @@
+//-----------------------------------------------------------------------------
+
+include "include/reputation/murderer";
+include "include/noto";
+include "include/log";
+include "include/move";
+include "include/items";
+include "include/cmds/misc";
+include "include/logon";
+include "include/checks/geometry";
+include "include/player/misc";
+
+//-----------------------------------------------------------------------------
+
+var ItemCfg := ReadConfigFile(ITEMS_CFG);
+
+//-----------------------------------------------------------------------------
+
+program OnLogon(who)
+
+  SendPacket (who, "B9000F97DF");
+  SendStaffNotify(EVID_PLAYER_LOGIN, who);
+
+  if(!CheckLogon(who))
+    return; 
+  endif
+  
+  RecalcVitals(who);
+
+  var ProfData := who.acct.GetProp("profile");
+
+  if(!ProfData and !IsOnMWTest())
+    SendSysMessage(who,"Pamietaj aby przypisac swoje konto do profilu na witrynie MW. W razie problemow, masz mozliwosc automatycznej zmiany hasla / kasacji masek z opcji profilu.",FONT_NORMAL,COLOR_RED);
+  endif
+
+  if(IsOnMWTest())
+    SendSysMessage(who,"Zalogowal" + Ggm(who,3) + " sie na serwer testowy Vestri Fatum.",FONT_BOLD,COLOR_YELLOW);
+  endif
+
+  CheckIps(who);
+
+  if(who.cmdlevel < 2)
+    RevokePrivilege(who, "hearghosts");
+  endif
+
+  if(IsStaff(who))
+    var GmPages := GetGlobalProperty("gmpages").size();
+    if(!GmPages)
+      SendSysMessage(who, "[GM PAGE]: Nie ma nowych wiadomosci.", FONT_BOLD, COLOR_GREEN);
+    else
+      SendSysMessage(who, "[GM PAGE]: Liczba nowych wiadomosci: " + CStr(GmPages) + ".", FONT_BOLD, COLOR_WHITE);
+    endif
+  endif
+
+  var WhoPack := who.backpack;
+
+  if(!WhoPack)
+    var NewPack := CreateItemAtLoc(5851, 1162, 0, __IfElse(IsStaff(who), UOBJ_STAFFPACK, UOBJ_BACKPACK), 1);
+    if(!EquipItem(who, NewPack))
+      DestroyItem(NewPack);
+    else
+      WhoPack := NewPack;
+    endif
+  endif
+
+  if(WhoPack)
+    WhoPack.movable := 0;
+    SetObjProperty(WhoPack, PROP_OWNER, who.serial);
+  endif
+
+  var Hairs := GetEquipmentByLayer(who, LAYER_HAIR);
+  var Beard := GetEquipmentByLayer(who, LAYER_BEARD);
+
+  if(Hairs.movable)
+    Hairs.movable := 0;
+  endif
+
+  if(Beard.movable)
+    Beard.movable := 0;
+  endif
+
+endprogram
+
+//-----------------------------------------------------------------------------

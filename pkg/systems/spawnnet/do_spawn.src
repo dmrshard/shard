@@ -1,0 +1,391 @@
+//-----------------------------------------------------------------------------
+
+include "spawnrune";
+include "spawnchest";
+include "include/findcity";
+include "include/loots";
+include "include/npcs";
+include "include/items";
+include "include/coords";
+include "include/logerror";
+include "spawnnet";
+
+//-----------------------------------------------------------------------------
+
+var BadLocs  := 0;
+
+//-----------------------------------------------------------------------------
+
+program DoSpawn(Rune)
+
+  if(!Rune)
+    return;
+  endif
+
+  SetObjProperty(Rune,"#SpawnPid",GetPid());
+
+  var CreatedObjects := CheckExistingObjects(Rune);
+  var loop           := GetRuneAmount(Rune);
+  var Template       := GetRuneTemplate(Rune);
+
+  var CreatedSpawn;
+  var nX,nY,nZ,tryes := 0,others := 0,Temp;
+  var MapInfo, MainCfg;
+
+  if(GetCheckedType(Rune) != GetRuneType(Rune))
+    return;
+  endif
+
+  case(GetRuneType(Rune))
+    NPC_SPAWN:        Template     := CStr(Template);
+    
+    NPCGROUP_SPAWN:   MainCfg      := ReadConfigFile(NPC_GROUP_CFG);
+                      Temp         := GetConfigStringArray(MainCfg[Template],"spawn");
+                      
+    ITEM_SPAWN:       MainCfg      := ReadConfigFile(ITEM_GROUP_CFG);
+                      Temp         := GetConfigStringArray(MainCfg[Template],"spawn");
+                      
+    CHEST_SPAWN:      MainCfg      := ReadConfigFile(SCHEST_CFG);
+                      if(!MainCfg[Template])
+                        return;
+                      endif
+                      
+    default:          return;
+  endcase
+
+  GetBadLocs(Rune);
+
+  if(!IsValidLoc(Rune.x, Rune.y, GetMapInfo(Rune.x, Rune.y, Rune.realm).landtile))
+    LogNotice("[DoSpawn] SpawnRune "+GetRuneNr(Rune)+" stoi w zabronionej strefie "+Rune.x+" "+Rune.y+" "+Rune.z+" "+Rune.realm, LOGF_WORLD);
+  endif
+  
+  case(GetRuneType(Rune))
+    NPC_SPAWN:
+    NPCGROUP_SPAWN:       while(loop > 0)
+
+                            if(len(CreatedObjects) >= GetRuneMaxAmount(Rune))
+                              break;
+                            endif
+
+                            if(GetRuneType(Rune) == NPCGROUP_SPAWN)
+                              Template     := Temp[(RandomInt(Len(Temp))+1)];
+                            endif
+
+                            if(!GetRuneRange(Rune))
+                              nX := Rune.x;
+                              nY := Rune.y;
+                            else
+                              nX := CInt(CInt(Rune.x - GetRuneRange(Rune) + CInt(RandomInt(GetRuneRange(Rune)*2))+1));
+                              nY := CInt(CInt(Rune.y - GetRuneRange(Rune) + CInt(RandomInt(GetRuneRange(Rune)*2))+1));
+                            endif
+
+                            MapInfo    := GetMapInfo( nX, nY, rune.realm );
+                            var Height := GetWorldHeight(nX,nY,rune.realm);
+                            var Stand;
+                            
+                            if(MapInfo.z != error)
+                              Stand := GetStandingHeight(nX,nY,MapInfo.z,rune.realm);
+                            elseif(Height != error)
+                              Stand := GetStandingHeight(nX,nY,Height,rune.realm);
+                            else
+                              Stand := error;
+                            endif
+
+                            if(IsSetFlag(Rune,RUNEF_BASE_Z))
+                              nZ := Rune.z;
+                            elseif(MapInfo.z == error)
+                              nZ := Height;
+                            elseif(Stand == error)
+                              nZ := error;
+                            else
+                              nZ := Stand.z;
+                            endif
+
+                            if(nZ == error)
+                              if(GetNpcConfig(Template).MoveMode["S"])
+                                nZ := MapInfo.z;
+                              else
+                                nZ := GetWorldHeight(nX,nY,rune.realm);
+                              endif
+                            endif
+
+                            CreatedSpawn := 0;
+
+                            if(nZ != error)
+                              if(abs(nZ - Rune.z) < 20)
+                                if(IsValidLoc(nX, nY, MapInfo.landtile))
+                                  if(CheckNpcFlags(Rune, nX, nY))              
+                                    CreatedSpawn := CreateNpc(Template,nX,nY,nZ,Rune.realm);
+                                    if(CanBeLeader(Template, CreatedSpawn))
+                                      MakeLeader(CreatedSpawn);
+                                    endif
+                                  endif
+                                endif
+                              endif
+                            endif
+
+                            if(!CreatedSpawn)
+                              tryes := tryes + 1;
+                              if(tryes >= MAX_CREATE_TRYES)
+                                LogNotice("[DoSpawn] Nie znaleziono dobrego miejsca na spawn runo "+GetRuneNr(rune)+" x: "+rune.x+" y: "+rune.y+" z: "+rune.z+" R: "+rune.realm, LOGF_WORLD);
+                                break;
+                              endif
+                            else
+                              CreatedSpawn := AddOnNpcFlags(Rune,CreatedSpawn);
+                              CreatedObjects.append(CreatedSpawn.serial);
+                              SetObjProperty(CreatedSpawn,"Spawnnet",GetRuneNr(Rune));
+                              SetObjProperty(CreatedSpawn,"#PeaceTime",ReadGameClock() + 10);
+                              SetObjProperty(Rune,PROP_CREATED_OBJECTS,CreatedObjects);
+                              loop := loop - 1;
+                              tryes := 0;
+                            endif
+
+                            if(CreatedSpawn)
+                              sleep(2);
+                            else
+                              sleepms(20);
+                            endif
+                          endwhile
+
+    ITEM_SPAWN:           while(loop > 0)
+
+                            if(len(CreatedObjects) >= GetRuneMaxAmount(Rune))
+                              break;
+                            endif
+
+                            Template := CInt(Temp[CInt(RandomInt(len(Temp))+1)]);
+
+                            if(!GetRuneRange(Rune))
+                              nX := Rune.x;
+                              nY := Rune.y;
+                            else
+                              nX := CInt(CInt(Rune.x - GetRuneRange(Rune) + CInt(RandomInt(GetRuneRange(Rune)*2))+1));
+                              nY := CInt(CInt(Rune.y - GetRuneRange(Rune) + CInt(RandomInt(GetRuneRange(Rune)*2))+1));
+                            endif
+
+                            MapInfo  := GetMapInfo( nX, nY, rune.realm );
+
+                            if(IsSetFlag(Rune,RUNEF_BASE_Z))
+                              nZ := Rune.z;
+                            else
+                              nZ := MapInfo.z;
+                            endif
+
+                            if(nZ == error)
+                              nZ := GetWorldHeight(nX,nY,rune.realm);
+                            endif
+
+                            others := 0;
+
+                            if(!IsValidLoc(nX, nY, MapInfo.landtile))
+                              others := 1;
+                            elseif(!IsSetFlag(Rune,RUNEF_BITEMS))
+                              foreach items in ListItemsAtLocation(nX,nY,nZ,rune.realm)
+                                if(items.objtype != UOBJ_SRUNE)
+                                  others := others + 1;
+                                endif
+                              endforeach
+                            endif
+
+                            CreatedSpawn := 0;
+
+                            if(!others)
+                              if(CheckItemFlags(rune,nX,nY,nZ))
+                                CreatedSpawn := CreateItemAtLoc(nX,nY,nZ,Template,1,rune.realm);
+                              endif
+                            endif
+
+                            if(!CreatedSpawn)
+                              tryes := tryes + 1;
+                              if(tryes >= MAX_CREATE_TRYES)
+                                LogNotice("[DoSpawn] Nie znaleziono dobrego miejsca na spawn runo "+GetRuneNr(Rune), LOGF_WORLD);
+                                break;
+                              endif
+                            else
+                              CreatedObjects.append(CreatedSpawn.serial);
+                              CreatedSpawn.movable := 0;
+                              SetObjProperty(CreatedSpawn,"Spawnnet",GetRuneNr(Rune));
+                              SetObjProperty(rune,PROP_CREATED_OBJECTS,CreatedObjects);
+                              loop := loop - 1;
+                              tryes := 0;
+                            endif
+
+                            if(CreatedSpawn)
+                              sleep(2);
+                            else
+                              sleepms(20);
+                            endif
+
+                          endwhile
+
+    CHEST_SPAWN:          if(ChestContentChanged(Rune, CreatedObjects))
+                            DestroyChestSpawns(Rune);
+                            CreateLoot(Rune, GetRuneTemplate(Rune), SCHEST_CFG);
+                            CreatedObjects := array;
+                            foreach Item in EnumerateItemsInContainer(Rune)
+                              CreatedObjects.append(Item.serial);
+                            endforeach
+                            SetObjProperty(Rune,PROP_CREATED_OBJECTS,CreatedObjects);
+                            SetObjProperty(Rune,"SpawnSize", CreatedObjects.size());
+                          endif
+                          
+  endcase
+
+endprogram
+
+//-----------------------------------------------------------------------------
+
+function ChestContentChanged(Chest, byref CreatedObjects)
+
+  if(!CreatedObjects.size())
+    return 1;
+  endif
+
+  if(CInt(GetObjProperty(Chest, "SpawnSize")) != CreatedObjects.size())
+    return 1;
+  endif
+
+  foreach Item in CreatedObjects
+    if(Item.container != Chest)
+      return 1;
+    endif
+  endforeach
+
+  return 0;
+
+endfunction
+
+//-----------------------------------------------------------------------------
+
+function CheckItemFlags(rune,x,y,z)
+
+  if(IsSetFlag(Rune, RUNEF_BITEMS))
+    foreach item in Listitemsatlocation(x,y,z,rune.realm);
+      if(item.movable)
+        DestroyItem(item);
+      else
+        return 0;
+      endif
+    endforeach
+  endif
+
+  if(IsSetFlag(Rune, RUNEF_NOCITY))
+    if(FindCityCoords(x,y,Rune.realm))
+      return 0;
+    endif
+  endif
+
+  if(IsSetFlag(Rune, RUNEF_ONLYCITY))
+    if(!FindCityCoords(x,y,Rune.realm))
+      return 0;
+    endif
+  endif
+
+  return 1;
+
+endfunction
+
+//-----------------------------------------------------------------------------
+
+function CheckNpcFlags(rune,x,y)
+
+  if(IsSetFlag(Rune, RUNEF_NOCITY))
+    if(FindCityCoords(x,y,Rune.realm))
+      return 0;
+    endif
+  endif
+
+  if(IsSetFlag(Rune, RUNEF_ONLYCITY))
+    if(!FindCityCoords(x,y,Rune.realm))
+      return 0;
+    endif
+  endif
+
+  if(GetStand(x,y,rune.realm).multi)
+    return 0;
+  endif
+
+  return 1;
+
+endfunction
+
+//-----------------------------------------------------------------------------
+
+function AddOnNpcFlags(rune,creature)
+
+  if(IsSetFlag(Rune,RUNEF_FROZEN))
+    SetFlag(Creature, NPCF_FROZEN);
+    Creature.frozen := 1;
+  endif
+
+  if(GetObjProperty(Rune,PROP_ROUND_DESTS))
+    SetObjProperty(creature,PROP_ROUND_DESTS,GetObjProperty(Rune,PROP_ROUND_DESTS));
+  endif
+  
+  if(IsSetFlag(Rune,RUNEF_NOWANDER))
+    SetFlag(creature, NPCF_NO_WANDER);
+  endif
+  
+  if(IsSetFlag(Rune,RUNEF_GUARDIGNORE))
+    SetFlag(creature, NPCF_GUARDIGNORE);
+  endif
+
+  if(GetRuneFacing(Rune) != "N/A")
+    Creature.SetFacing(GetRuneFacing(Rune), 1);
+  endif
+
+  if(GetRuneOverColor(Rune))
+    creature.color := GetRuneOverColor(Rune);
+    SetObjProperty(creature,"SetColor",GetRuneOverColor(Rune));
+  endif
+
+  return creature;
+
+endfunction
+
+//-----------------------------------------------------------------------------
+
+function GetBadLocs(Rune)
+
+  var BadCfg := ReadConfigFile(":spawnnet:badlocs");
+
+  if(BadCfg)
+    BadLocs := GetConfigStringArray(BadCfg["Locs_"+Rune.realm], "Loc");
+    if(BadLocs)
+      foreach bLoc in BadLocs
+        bLoc    := SplitWords(bLoc);
+        bLoc[1] := CInt(bLoc[1]);
+        bLoc[2] := CInt(bLoc[2]);
+        bLoc[3] := CInt(bLoc[3]);
+        bLoc[4] := CInt(bLoc[4]);
+        bLoc[5] := CInt(bLoc[5]);
+        bLoc[6] := CInt(bLoc[6]);
+      endforeach
+    endif
+  endif
+
+endfunction
+
+//-----------------------------------------------------------------------------
+
+function IsValidLoc(x, y, LandTile)
+
+  if(BadLocs)
+    foreach bLoc in BadLocs
+      if(bLoc[1] <= x and bLoc[2] <= y and bLoc[3] >= x and bLoc[4] >= y)
+        if(bLoc[5] and bLoc[6] and LandTile)
+          if(bLoc[5] <= LandTile and bLoc[6] >= LandTile)
+            return 0;
+          endif
+        else
+          return 0;
+        endif
+      endif
+    endforeach
+  endif
+
+  return 1;
+
+endfunction
+
+//-----------------------------------------------------------------------------

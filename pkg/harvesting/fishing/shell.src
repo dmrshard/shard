@@ -1,0 +1,85 @@
+//-----------------------------------------------------------------------------
+
+include "include/objtypes/skills";
+include "include/checks/objchecks";
+include "include/items";
+
+//-----------------------------------------------------------------------------
+
+program BreakShell(who, shell)
+
+  if(!StandardItemCheck(who,shell))
+    return;
+  endif
+
+  var ItemsCfg  := ReadConfigFile(ITEMS_CFG);
+  var SizeAmount := CInt(ItemsCfg[shell.objtype].SizeAmount);
+  
+  if(!SizeAmount)
+    SendSysMessage(who, "To nie muszla.",FONT_NORMAL,COLOR_RED);
+  else
+    var i;
+    var lMax := Min(shell.amount, 5);
+    var lPearl := 0;
+    var lOys := 0;
+
+    for(i:=1; i<=lMax; i+=1)
+      CreateRest(who, shell, SizeAmount, lPearl, lOys);
+    endfor
+  
+    if(lPearl)
+      SendSysMessage(who, "Znalazl"+ggm(who,3)+" "+lPearl+" czarnych perel!", FONT_NORMAL, COLOR_GREEN);
+    endif
+
+    if(lOys)
+      SendSysMessage(who, "Znalazl"+ggm(who,3)+" "+lOys+" ostryg.", FONT_NORMAL, COLOR_GREEN);
+    endif
+
+  endif
+
+  sleep(1);
+
+endprogram
+
+//-----------------------------------------------------------------------------
+
+function CreateRest(who,shell,amt, byref pPearl, byref pOys)
+
+  if(SubtractAmount(shell, 1))
+    Playsoundeffect(who,0x134);
+    var Harvester := FindPlayerBySerial(GetHarvesterSerial(shell));
+
+    amt -= RandomInt(CInt(amt*0.2));
+
+    if(Harvester)
+      var Skill := GetBaseSkill(who, SKILLID_FISHING);
+      var Half := amt*0.6;
+      amt := Half + CInt(Half * (CDbl(Skill)/100));
+    endif
+
+    if(amt < 1)
+      amt := 1;
+    endif
+
+    var Cont := shell.container;
+
+    if(!Cont)
+      Cont := who.backpack;
+    endif
+
+    var itmDesc := GetHarvestDescriptor(UOBJ_BLACKPEARL, who);
+    CreateItemInCont(Cont, itmDesc, amt, who);
+    pPearl += amt;
+    CreateItemInCont(Cont, 0xfc8, 1, who);
+
+    if(amt >= 8 and HaveChance(60))
+      var itmDesc := GetHarvestDescriptor(UOBJ_OYSTER, who);
+      var OysAmt := 1+RandomInt(2);
+      CreateItemInCont(Cont, itmDesc, OysAmt, who);
+      pOys += OysAmt;
+    endif
+  endif
+  
+endfunction
+
+//-----------------------------------------------------------------------------

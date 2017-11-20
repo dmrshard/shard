@@ -1,0 +1,242 @@
+#
+#  ITEMS.TXT: Item data
+#
+#  This file also contains ship and house components (doors, planks etc)
+#
+
+Item
+{
+	Serial	0x40000e21
+	ObjType	0x7007
+	Graphic	0xe77
+	X	4294
+	Y	1161
+	Z	0
+	Revision	4
+	Realm	britannia
+	CProp	Created i2
+	CProp	DeedObjType i28681
+	CProp	Owner i2
+	CProp	PartsSerials a1:i1073745441
+	DecayAt	5659
+}
+
+Item
+{
+	Name	Ores
+	Serial	0x4000141a
+	ObjType	0xe7c
+	Graphic	0xe7c
+	X	1623
+	Y	262
+	Z	78
+	Revision	2
+	Realm	ilshenar
+	CProp	Created i2
+	CProp	MagicItem e1:S9:errortextS18:Property not found
+	DecayAt	15872
+}
+
+Item
+{
+	Serial	0x4000141b
+	ObjType	0x6500
+	Graphic	0x19b9
+	X	48
+	Y	54
+	Z	0
+	Revision	1
+	Realm	ilshenar
+	CProp	Created i2
+	Amount	50
+	Container	0x4000141a
+	DecayAt	15857
+}
+
+Item
+{
+	Serial	0x4000141c
+	ObjType	0x650a
+	Graphic	0x19b9
+	Color	0x515
+	X	53
+	Y	74
+	Z	0
+	Revision	1
+	Realm	ilshenar
+	CProp	Created i2
+	Amount	50
+	Container	0x4000141a
+	DecayAt	15857
+}
+
+Item
+{
+	Serial	0x4000141d
+	ObjType	0x650b
+	Graphic	0x19b9
+	Color	0x461
+	X	53
+	Y	58
+	Z	0
+	Revision	1
+	Realm	ilshenar
+	CProp	Created i2
+	Amount	50
+	Container	0x4000141a
+	DecayAt	15857
+}
+
+Item
+{
+	Serial	0x4000141e
+	ObjType	0x650c
+	Graphic	0x19b9
+	Color	0x455
+	X	46
+	Y	64
+	Z	0
+	Revision	1
+	Realm	ilshenar
+	CProp	Created i2
+	Amount	50
+	Container	0x4000141a
+	DecayAt	15857
+}
+
+Item
+{
+	Serial	0x4000141f
+	ObjType	0x650d
+	Graphic	0x19b9
+	Color	0x400
+	X	44
+	Y	64
+	Z	0
+	Revision	1
+	Realm	ilshenar
+	CProp	Created i2
+	Amount	50
+	Container	0x4000141a
+	DecayAt	15857
+}
+
+Item
+{
+	Serial	0x40001420
+	ObjType	0x650e
+	Graphic	0x19b9
+	Color	0x7d1
+	X	47
+	Y	24
+	Z	0
+	Revision	1
+	Realm	ilshenar
+	CProp	Created i2
+	Amount	50
+	Container	0x4000141a
+	DecayAt	15857
+}
+
+Item
+{
+	Serial	0x40001421
+	ObjType	0x650f
+	Graphic	0x19b9
+	Color	0x590
+	X	46
+	Y	52
+	Z	0
+	Revision	1
+	Realm	ilshenar
+	CProp	Created i2
+	Amount	50
+	Container	0x4000141a
+	DecayAt	15857
+}
+
+Item
+{
+	Serial	0x40001422
+	ObjType	0x6510
+	Graphic	0x19b9
+	Color	0x528
+	X	48
+	Y	77
+	Z	0
+	Revision	1
+	Realm	ilshenar
+	CProp	Created i2
+	Amount	50
+	Container	0x4000141a
+	DecayAt	15857
+}
+
+Item
+{
+	Serial	0x40001423
+	ObjType	0x6511
+	Graphic	0x19b9
+	Color	0x51d
+	X	58
+	Y	61
+	Z	0
+	Revision	1
+	Realm	ilshenar
+	CProp	Created i2
+	Amount	50
+	Container	0x4000141a
+	DecayAt	15857
+}
+
+Item
+{
+	Serial	0x40001424
+	ObjType	0x6512
+	Graphic	0x19b9
+	Color	0x4df
+	X	59
+	Y	52
+	Z	0
+	Revision	1
+	Realm	ilshenar
+	CProp	Created i2
+	Amount	50
+	Container	0x4000141a
+	DecayAt	15857
+}
+
+Item
+{
+	Serial	0x40001425
+	ObjType	0x6513
+	Graphic	0x19b9
+	Color	0x4b9
+	X	51
+	Y	21
+	Z	0
+	Revision	1
+	Realm	ilshenar
+	CProp	Created i2
+	Amount	50
+	Container	0x4000141a
+	DecayAt	15857
+}
+
+Item
+{
+	Serial	0x40001426
+	ObjType	0x655a
+	Graphic	0x1f38
+	Color	0x8a5
+	X	1624
+	Y	261
+	Z	78
+	Revision	3
+	Realm	ilshenar
+	CProp	Created i2
+	CProp	ItemLevel i6
+	Amount	49
+	DecayAt	15890
+}
+

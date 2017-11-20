@@ -1,0 +1,29 @@
+[11/17 22:22:36] Logfile opened.
+POL099-2013-09-03 Break Everything Even Rudder (VS.NET 2013 - 64bit)
+compiled on May  5 2015 23:21:47
+Copyright (C) 1993-2015 Eric N. Swanson
+
+Using 4 out of 8 worldsave threads
+Reading Configuration.
+Loading Realm britannia.
+Validating statics files: Completed in 2 ms.
+Completed in 168 ms.
+Loading Realm britannia_alt.
+Validating statics files: Completed in 1 ms.
+Completed in 167 ms.
+Loading Realm ilshenar.
+Validating statics files: Completed in 0 ms.
+Completed in 36 ms.
+Loading Realm malas.
+Validating statics files: Completed in 0 ms.
+Completed in 32 ms.
+Loading Realm tokuno.
+Validating statics files: Completed in 0 ms.
+Completed in 12 ms.
+hostname is DESKTOP-T46ITQI
+address: 192.168.0.14
+LAN IP address is 192.168.0.14
+Reading data files:
+Done! 115 milliseconds.
+Initialization complete.  POL is active.  Ctrl-C to stop.
+

@@ -1,0 +1,75 @@
+[03/18 23:25:44] Logfile opened.
+Config File pkg/systems/saver/saver.cfg does not exist.
+Config File pkg/systems/saver/saver.cfg does not exist.
+Config File pkg/systems/saver/saver.cfg does not exist.
+Script Error in 'scripts/textcmd/seer/info.ecl' PC=10629: 
+	Call to function GetConfigStringArray:
+	Parameter 0: Expected datatype ApplicObj, got datatype Error
+Script Error in 'scripts/textcmd/seer/info.ecl' PC=10629: 
+	Call to function GetConfigStringArray:
+	Parameter 0: Expected datatype ApplicObj, got datatype Error
+Script Error in 'scripts/textcmd/seer/info.ecl' PC=10629: 
+	Call to function GetConfigStringArray:
+	Parameter 0: Expected datatype ApplicObj, got datatype Error
+Script Error in 'scripts/textcmd/seer/info.ecl' PC=10629: 
+	Call to function GetConfigStringArray:
+	Parameter 0: Expected datatype ApplicObj, got datatype Error
+Script Error in 'scripts/textcmd/seer/info.ecl' PC=10629: 
+	Call to function GetConfigStringArray:
+	Parameter 0: Expected datatype ApplicObj, got datatype Error
+Script Error in 'scripts/textcmd/seer/info.ecl' PC=10629: 
+	Call to function GetConfigStringArray:
+	Parameter 0: Expected datatype ApplicObj, got datatype Error
+Script Error in 'scripts/textcmd/seer/info.ecl' PC=10629: 
+	Call to function GetConfigStringArray:
+	Parameter 0: Expected datatype ApplicObj, got datatype Error
+Script Error in 'scripts/textcmd/seer/info.ecl' PC=10629: 
+	Call to function GetConfigStringArray:
+	Parameter 0: Expected datatype ApplicObj, got datatype Error
+Script Error in 'scripts/textcmd/gm/prop.ecl' PC=695: 
+	Call to function GetObjProperty:
+	Parameter 1: Expected datatype String, got datatype Error
+[05/05 19:22:38] Logfile opened.
+Script Error in 'pkg/packets/p_login/h_login.ecl' PC=625: 
+	Call to function FindAccount:
+	Parameter 0: Expected datatype String, got datatype Uninit
+[05/05 19:26:08] Logfile opened.
+Script Error in 'pkg/packets/p_login/h_login.ecl' PC=625: 
+	Call to function FindAccount:
+	Parameter 0: Expected datatype String, got datatype Uninit
+[05/07 17:14:33] Logfile opened.
+Script Error in 'pkg/systems/weather/startweather.ecl' PC=1505: 
+	Call to function SetRegionLightLevel:
+	Parameter 1: Expected datatype Integer, got datatype Error
+Script Error in 'pkg/systems/weather/startweather.ecl' PC=1509: 
+	Call to function SetRegionLightLevel:
+	Parameter 1: Expected datatype Integer, got datatype Error
+Script Error in 'pkg/systems/weather/startweather.ecl' PC=1513: 
+	Call to function SetRegionLightLevel:
+	Parameter 1: Expected datatype Integer, got datatype Error
+Script Error in 'pkg/systems/weather/startweather.ecl' PC=1517: 
+	Call to function SetRegionLightLevel:
+	Parameter 1: Expected datatype Integer, got datatype Error
+Script Error in 'pkg/systems/weather/startweather.ecl' PC=1521: 
+	Call to function SetRegionLightLevel:
+	Parameter 1: Expected datatype Integer, got datatype Error
+[11/17 22:14:47] Logfile opened.
+Script Error in 'pkg/hooks/regen.ecl' PC=426: 
+	Call to function GetConfigReal:
+	Parameter 0: Expected datatype ApplicObj, got datatype Error
+Script Error in 'pkg/hooks/regen.ecl' PC=402: 
+	Call to function GetConfigReal:
+	Parameter 0: Expected datatype ApplicObj, got datatype Error
+Script Error in 'pkg/hooks/regen.ecl' PC=719: 
+	Call to function GetConfigReal:
+	Parameter 0: Expected datatype ApplicObj, got datatype Error
+[11/17 22:22:38] Logfile opened.
+Script Error in 'pkg/hooks/regen.ecl' PC=426: 
+	Call to function GetConfigReal:
+	Parameter 0: Expected datatype ApplicObj, got datatype Error
+Script Error in 'pkg/hooks/regen.ecl' PC=402: 
+	Call to function GetConfigReal:
+	Parameter 0: Expected datatype ApplicObj, got datatype Error
+Script Error in 'pkg/hooks/regen.ecl' PC=719: 
+	Call to function GetConfigReal:
+	Parameter 0: Expected datatype ApplicObj, got datatype Error

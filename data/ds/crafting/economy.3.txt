@@ -1,0 +1,66 @@
+Element 15-05-07
+{
+	CountAccs a3:i1i1i1
+	CountBankAccount i0
+	CountChars i0
+	CountCheque i0
+	CountClasses d3:S6:Archeri0S4:Magei0S7:Warriori0
+	CountGold i0
+	CountItems i0
+	CountRaces d6:S5:dwarfi0S3:elfi0S4:gnomi0S6:hobbiti0S5:humani0S6:istarii0
+	CountStatus a2:i0i0
+	CountSubClasses d0:
+	CraftItems d11:i0a4:i0i0i0i0i4a4:i0i0i0i0i7a4:i0i0i0i0i8a4:i0i0i0i0i11a4:i0i0i0i0i12a4:i0i0i0i0i13a4:i0i0i0i0i23a4:i0i0i0i0i34a4:i0i0i0i0i37a4:i0i0i0i0i51a4:i0i0i0i0
+	CraftSkills d11:i0a6:i0i0i0i0i0i0i4a6:i0i0i0i0i0i0i7a6:i0i0i0i0i0i0i8a6:i0i0i0i0i0i0i11a6:i0i0i0i0i0i0i12a6:i0i0i0i0i0i0i13a6:i0i0i0i0i0i0i23a6:i0i0i0i0i0i0i34a6:i0i0i0i0i0i0i37a6:i0i0i0i0i0i0i51a6:i0i0i0i0i0i0
+	HarvItems d6:i6d0:i18d0:i20d0:i36d0:i44d0:i45d0:
+	HarvSkills d6:i6a6:i0i0i0i0i0i0i18a6:i0i0i0i0i0i0i20a6:i0i0i0i0i0i0i36a6:i0i0i0i0i0i0i44a6:i0i0i0i0i0i0i45a6:i0i0i0i0i0i0
+	MagicItems a4:i0i0i0i0
+	SumBankAccount i0
+	SumCheque i0
+	SumGold i0
+}
+
+Element 17-11-17
+{
+	CountAccs a3:i1i1i1
+	CountBankAccount i0
+	CountChars i0
+	CountCheque i0
+	CountClasses d3:S6:Archeri0S4:Magei0S7:Warriori0
+	CountGold i0
+	CountItems i0
+	CountRaces d6:S5:dwarfi0S3:elfi0S4:gnomi0S6:hobbiti0S5:humani0S6:istarii0
+	CountStatus a2:i0i0
+	CountSubClasses d0:
+	CraftItems d11:i0a4:i0i0i0i0i4a4:i0i0i0i0i7a4:i0i0i0i0i8a4:i0i0i0i0i11a4:i0i0i0i0i12a4:i0i0i0i0i13a4:i0i0i0i0i23a4:i0i0i0i0i34a4:i0i0i0i0i37a4:i0i0i0i0i51a4:i0i0i0i0
+	CraftSkills d11:i0a6:i0i0i0i0i0i0i4a6:i0i0i0i0i0i0i7a6:i0i0i0i0i0i0i8a6:i0i0i0i0i0i0i11a6:i0i0i0i0i0i0i12a6:i0i0i0i0i0i0i13a6:i0i0i0i0i0i0i23a6:i0i0i0i0i0i0i34a6:i0i0i0i0i0i0i37a6:i0i0i0i0i0i0i51a6:i0i0i0i0i0i0
+	HarvItems d6:i6d0:i18d0:i20d0:i36d0:i44d0:i45d0:
+	HarvSkills d6:i6a6:i0i0i0i0i0i0i18a6:i0i0i0i0i0i0i20a6:i0i0i0i0i0i0i36a6:i0i0i0i0i0i0i44a6:i0i0i0i0i0i0i45a6:i0i0i0i0i0i0
+	MagicItems a4:i0i0i0i0
+	SumBankAccount i0
+	SumCheque i0
+	SumGold i0
+}
+
+Element 17-11-18
+{
+	CountAccs a3:i1i1i1
+	CountBankAccount i0
+	CountChars i0
+	CountCheque i0
+	CountClasses d3:S6:Archeri0S4:Magei0S7:Warriori0
+	CountGold i0
+	CountItems i0
+	CountRaces d6:S5:dwarfi0S3:elfi0S4:gnomi0S6:hobbiti0S5:humani0S6:istarii0
+	CountStatus a2:i0i0
+	CountSubClasses d0:
+	CraftItems d11:i0a4:i0i0i0i0i4a4:i0i0i0i0i7a4:i0i0i0i0i8a4:i0i0i0i0i11a4:i0i0i0i0i12a4:i0i0i0i0i13a4:i0i0i0i0i23a4:i0i0i0i0i34a4:i0i0i0i0i37a4:i0i0i0i0i51a4:i0i0i0i0
+	CraftSkills d11:i0a6:i0i0i0i0i0i0i4a6:i0i0i0i0i0i0i7a6:i0i0i0i0i0i0i8a6:i0i0i0i0i0i0i11a6:i0i0i0i0i0i0i12a6:i0i0i0i0i0i0i13a6:i0i0i0i0i0i0i23a6:i0i0i0i0i0i0i34a6:i0i0i0i0i0i0i37a6:i0i0i0i0i0i0i51a6:i0i0i0i0i0i0
+	HarvItems d6:i6d0:i18d0:i20d0:i36d0:i44d0:i45d0:
+	HarvSkills d6:i6a6:i0i0i0i0i0i0i18a6:i0i0i0i0i0i0i20a6:i0i0i0i0i0i0i36a6:i0i0i0i0i0i0i44a6:i0i0i0i0i0i0i45a6:i0i0i0i0i0i0
+	MagicItems a4:i0i0i0i0
+	SumBankAccount i0
+	SumCheque i0
+	SumGold i0
+}
+

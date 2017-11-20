@@ -1,0 +1,16 @@
+Account
+{
+	Name	qrak
+	PasswordHash	c60cd01a2315462343fef7190cc977bc
+	Enabled	1
+	Banned	0
+	UOExpansion	HSA
+	CProp	CreationTimer a5:i1348i0i0i0i0
+	CProp	LastIP d1:S9:127.0.0.1a3:S6:sdfsdfi1510982573i64
+	CProp	LastLogin i16421
+	CProp	Logs d2:i-1i24i24629i10
+	CProp	Notes a1:a5:S5:Qra'hS4:qrakS83:Qra'h [loc: 4543,1313,8,britannia] czas: 15 min powod: 'Za pierdolenie o szopenie'.i1510979495S1:J
+	CProp	RealAdmin i1
+	CProp	TopList a2:i1S10:dd-mm-yyyy
+}
+

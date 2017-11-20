@@ -1,0 +1,155 @@
+#
+#  STORAGE.TXT: Contains bank boxes, vendor inventories, and other data.
+#
+#  This file can safely be deleted to wipe bank boxes and vendor inventories.
+#  Note that scripts may use this for other types of storage as well
+#
+
+StorageArea
+{
+	Name	Merchant Box
+}
+
+Item
+{
+	Name	DarkKnight Box
+	Serial	0x400013f3
+	ObjType	0xa297
+	Graphic	0xe40
+	X	0
+	Y	0
+	Z	0
+	Revision	1
+	Realm	britannia
+	DecayAt	14142
+}
+
+Item
+{
+	Serial	0x400013f4
+	ObjType	0x3191
+	Graphic	0x3191
+	X	106
+	Y	95
+	Z	0
+	Revision	1
+	Realm	britannia
+	Container	0x400013f3
+	DecayAt	14142
+}
+
+Item
+{
+	Serial	0x400013f5
+	ObjType	0xa800
+	Graphic	0xf7d
+	X	48
+	Y	79
+	Z	0
+	Revision	1
+	Realm	britannia
+	Container	0x400013f3
+	DecayAt	14142
+}
+
+Item
+{
+	Serial	0x400013f6
+	ObjType	0x3192
+	Graphic	0x3192
+	X	50
+	Y	133
+	Z	0
+	Revision	1
+	Realm	britannia
+	Container	0x400013f3
+	DecayAt	14142
+}
+
+Item
+{
+	Serial	0x400013f7
+	ObjType	0x3197
+	Graphic	0x3197
+	X	114
+	Y	129
+	Z	0
+	Revision	1
+	Realm	britannia
+	Container	0x400013f3
+	DecayAt	14142
+}
+
+Item
+{
+	Serial	0x400013f8
+	ObjType	0xa880
+	Graphic	0x2254
+	Color	0x4b9
+	X	78
+	Y	97
+	Z	0
+	Facing	1
+	Revision	1
+	Realm	britannia
+	Container	0x400013f3
+	DecayAt	14142
+}
+
+Item
+{
+	Serial	0x400013f9
+	ObjType	0xa881
+	Graphic	0x2b01
+	Color	0x4b9
+	X	93
+	Y	102
+	Z	0
+	Facing	2
+	Revision	1
+	Realm	britannia
+	Container	0x400013f3
+	DecayAt	14142
+}
+
+
+StorageArea
+{
+	Name	Temporary
+}
+
+Item
+{
+	Name	TempItems
+	Serial	0x4000140d
+	ObjType	0xef00
+	Graphic	0xe7c
+	X	0
+	Y	0
+	Z	0
+	Revision	1
+	Realm	britannia
+	DecayAt	15180
+}
+
+
+StorageArea
+{
+	Name	World Mail
+}
+
+Item
+{
+	Name	Mailbox of 2
+	Serial	0x400002d6
+	ObjType	0x9661
+	Graphic	0xe7c
+	X	0
+	Y	0
+	Z	0
+	Revision	1
+	Realm	britannia
+	DecayAt	1312
+}
+
+

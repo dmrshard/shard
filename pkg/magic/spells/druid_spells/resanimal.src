@@ -1,0 +1,44 @@
+//-----------------------------------------------------------------------------
+
+include ":magic:magic";
+include ":healing:healing";
+include "ai/include/tamed";
+
+//-----------------------------------------------------------------------------
+
+const SPELL_ID              := 95;
+
+//-----------------------------------------------------------------------------
+
+program CastRessurectAnimal( nSpellParms )
+
+  SpellCast(nSpellParms, SPELL_ID, TRGT_CORPSE);
+
+endprogram
+
+//-----------------------------------------------------------------------------
+
+function SpellAction(Caster, CastOn)
+
+  if(Distance(Caster,CastOn) > 1)
+    Fizzle(Caster,"Stoisz za daleko");
+    return;
+  endif
+
+  var NpcTemp := GetObjProperty(CastOn, PROP_NPCTEMP);
+  var cfgElem := GetNpcConfig(NpcTemp);
+
+  if(!NpcTemp or !cfgElem.RessurectAble)
+    SendSysMessage(Caster,"Tego nie mozesz wskrzesic.",FONT_NORMAL,COLOR_RED);
+    return;
+  endif
+
+  if(CanResurrectNpc(Caster, CastOn))
+    if(ResurrectNpc(Caster,CastOn))
+      GainSpellPoints(Caster, CastOn, MAGICGAIN_DEFENSIVE); 
+    endif
+  endif
+
+endfunction
+
+//-----------------------------------------------------------------------------

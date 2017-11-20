@@ -1,0 +1,175 @@
+[04/19 00:06:16] Logfile opened.
+[04/19 00:06:21] Logfile closed.
+[04/19 00:06:40] Logfile opened.
+[04/19 00:08:33] Logfile closed.
+Logfile closed.
+[04/19 00:11:26] Logfile opened.
+[04/19 00:13:09] Logfile closed.
+Logfile closed.
+[04/19 00:13:10] Logfile opened.
+[04/19 00:24:29] Logfile closed.
+Logfile closed.
+[04/19 00:24:53] Logfile opened.
+[04/19 00:32:40] Logfile closed.
+Logfile closed.
+[04/19 00:32:43] Logfile opened.
+[04/19 01:30:43] Logfile closed.
+Logfile closed.
+[04/23 17:21:27] Logfile opened.
+[04/23 17:56:57] Logfile closed.
+Logfile closed.
+[04/23 17:57:01] Logfile opened.
+[04/23 18:31:56] Logfile closed.
+Logfile closed.
+[04/23 18:41:58] Logfile opened.
+[04/23 21:07:03] Logfile closed.
+Logfile closed.
+[04/23 21:13:06] Logfile opened.
+[05/05 16:59:10] Logfile opened.
+[05/05 17:10:37] Runaway script[153]: pkg/systems/craftquests/show_quests.ecl (20000 cycles)
+ 3773: get member 'AttrGroup'
+ 3774: local #10
+ 3775: in
+ 3776: if false goto 3794
+ 3777: local #14
+>3778: "Template"
+ 3779: Func(7,1): GetConfigStringArray
+ 3780: local8 := 
+ 3781: local #7
+ 3782: local #8
+ 3783: in
+Runaway script[153]: pkg/systems/craftquests/show_quests.ecl (40000 cycles)
+ 3755: #
+ 3756: local #5
+ 3757: initforeach @3795
+ 3758: decl local #0
+ 3759: local #3
+>3760: local #11
+ 3761: [] 1
+ 3762: :=
+ 3763: #
+ 3764: local #14
+ 3765: get member 'Level'
+[05/05 17:11:10] Runaway script[331]: pkg/systems/craftquests/show_quests.ecl (20000 cycles)
+ 3753: jmp userfunc @5806
+ 3754: :=
+ 3755: #
+ 3756: local #5
+ 3757: initforeach @3795
+>3758: decl local #0
+ 3759: local #3
+ 3760: local #11
+ 3761: [] 1
+ 3762: :=
+ 3763: #
+Runaway script[331]: pkg/systems/craftquests/show_quests.ecl (40000 cycles)
+ 3761: [] 1
+ 3762: :=
+ 3763: #
+ 3764: local #14
+ 3765: get member 'Level'
+>3766: local #1
+ 3767: ==
+ 3768: if false goto 3794
+ 3769: local #9
+ 3770: local #14
+ 3771: get member id 'attribute' (92)
+[05/05 17:53:09] Runaway script[636]: pkg/systems/craftquests/show_quests.ecl (20000 cycles)
+ 3763: #
+ 3764: local #14
+ 3765: get member 'Level'
+ 3766: local #1
+ 3767: ==
+>3768: if false goto 3794
+ 3769: local #9
+ 3770: local #14
+ 3771: get member id 'attribute' (92)
+ 3772: [] 1
+ 3773: get member 'AttrGroup'
+Runaway script[636]: pkg/systems/craftquests/show_quests.ecl (40000 cycles)
+ 3760: local #11
+ 3761: [] 1
+ 3762: :=
+ 3763: #
+ 3764: local #14
+>3765: get member 'Level'
+ 3766: local #1
+ 3767: ==
+ 3768: if false goto 3794
+ 3769: local #9
+ 3770: local #14
+Runaway script[636]: pkg/systems/craftquests/show_quests.ecl (60000 cycles)
+ 3789: if false goto 3794
+ 3790: local #6
+ 3791: local #11
+ 3792: Call Method id append (#52, 1 params)
+ 3793: #
+>3794: leave block(1)
+ 3795: stepforeach @3758
+ 3796: leave block(3)
+ 3797: local #4
+ 3798: local #6
+ 3799: local #6
+Runaway script[636]: pkg/systems/craftquests/show_quests.ecl (80000 cycles)
+ 4005: makelocal
+ 4006: jmp userfunc @4934
+ 4007: #
+ 4008: 0L
+ 4009: return
+>4010: local #15
+ 4011: 1L
+ 4012: local #18
+ 4013: [] := (1) #
+ 4014: local #2
+ 4015: local #4
+Runaway script[636]: pkg/systems/craftquests/show_quests.ecl (100000 cycles)
+ 3789: if false goto 3794
+ 3790: local #6
+ 3791: local #11
+ 3792: Call Method id append (#52, 1 params)
+ 3793: #
+>3794: leave block(1)
+ 3795: stepforeach @3758
+ 3796: leave block(3)
+ 3797: local #4
+ 3798: local #6
+ 3799: local #6
+Runaway script[636]: pkg/systems/craftquests/show_quests.ecl (120000 cycles)
+ 3767: ==
+ 3768: if false goto 3794
+ 3769: local #9
+ 3770: local #14
+ 3771: get member id 'attribute' (92)
+>3772: [] 1
+ 3773: get member 'AttrGroup'
+ 3774: local #10
+ 3775: in
+ 3776: if false goto 3794
+ 3777: local #14
+[05/05 17:58:31] Runaway script[808]: pkg/systems/craftquests/show_quests.ecl (20000 cycles)
+ 3789: if false goto 3794
+ 3790: local #6
+ 3791: local #11
+ 3792: Call Method id append (#52, 1 params)
+ 3793: #
+>3794: leave block(1)
+ 3795: stepforeach @3758
+ 3796: leave block(3)
+ 3797: local #4
+ 3798: local #6
+ 3799: local #6
+Runaway script[808]: pkg/systems/craftquests/show_quests.ecl (40000 cycles)
+ 3754: :=
+ 3755: #
+ 3756: local #5
+ 3757: initforeach @3795
+ 3758: decl local #0
+>3759: local #3
+ 3760: local #11
+ 3761: [] 1
+ 3762: :=
+ 3763: #
+ 3764: local #14
+[05/05 21:39:45] Logfile opened.
+[05/06 00:20:23] Logfile closed.
+Logfile closed.

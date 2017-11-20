@@ -1,0 +1,103 @@
+#
+#  PCEQUIP.TXT: Player-Character Equipment Data
+#
+#  This file can be deleted to wipe all items held/equipped by characters
+#  Note that hair, beards, empty backpacks, and death shrouds are in PCS.TXT.
+#
+
+Item
+{
+	Serial	0x400002d5
+	ObjType	0x1f03
+	Graphic	0x1f03
+	Color	0x199
+	X	76
+	Y	126
+	Z	0
+	Facing	22
+	Revision	0
+	Realm	ilshenar
+	CProp	swings r577.8
+	Container	0x400002d3
+	DecayAt	1312
+	Newbie	1
+}
+
+Item
+{
+	Serial	0x4000087c
+	ObjType	0x16030
+	Graphic	0x14f2
+	X	113
+	Y	67
+	Z	0
+	Revision	2
+	Realm	ilshenar
+	CProp	Created i2
+	Container	0x400002d3
+	DecayAt	5444
+}
+
+Item
+{
+	Serial	0x400002d4
+	ObjType	0xeed
+	Graphic	0xeed
+	X	59
+	Y	87
+	Z	0
+	Revision	1
+	Realm	ilshenar
+	Amount	100
+	Container	0x400002d3
+	DecayAt	10912
+}
+
+Item
+{
+	Serial	0x4000087b
+	ObjType	0xeed
+	Graphic	0xeed
+	X	113
+	Y	106
+	Z	0
+	Revision	2
+	Realm	ilshenar
+	CProp	Created i2
+	Amount	1000
+	Container	0x400002d3
+	DecayAt	15023
+}
+
+Item
+{
+	Serial	0x400010f4
+	ObjType	0x1ebc
+	Graphic	0x1ebc
+	X	53
+	Y	68
+	Z	0
+	Revision	2
+	Realm	ilshenar
+	CProp	Created i2
+	Container	0x400002d3
+	DecayAt	6227
+}
+
+Item
+{
+	Serial	0x400013c9
+	ObjType	0x100e
+	Graphic	0x100e
+	X	63
+	Y	94
+	Z	0
+	Revision	1
+	Realm	ilshenar
+	CProp	Created i2
+	CProp	lockid i1
+	CProp	shipserial i1073746890
+	Container	0x400002d3
+	DecayAt	14072
+}
+

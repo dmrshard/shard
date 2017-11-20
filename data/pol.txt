@@ -1,0 +1,51 @@
+#
+#  Created by Version: POL099-2013-09-03 Break Everything Even Rudder
+#  Mobiles:		 2
+#  Top-level Items: 12
+#
+
+System
+{
+	CoreVersion	99
+	CoreVersionString	POL099-2013-09-03 Break Everything Even Rudder
+	CompileDate	May  5 2015
+	CompileTime	23:21:47
+	LastItemSerialNumber	1073747704
+	LastCharSerialNumber	9
+}
+
+GlobalProperties
+{
+	CProp	ChampData a7:a3:i1431011673i0i0a0:a0:i0i0i0i0
+	CProp	GlChkScList a3:S22::waypoints:checkpointsS21::globchk:cleanstorageS17::reslogon:checkrl
+	CProp	GlChk_:globchk:cleanstorage a3:S12:CleanStoragei0i0
+	CProp	GlChk_:reslogon:checkrl a3:S8:ResLogoni1510982088i70
+	CProp	GlChk_:waypoints:checkpoints a3:S9:Waypointsi0i0
+	CProp	GlCtrlScList a17:S4:::scS11:::shardinfoS24::magiceffects:npcmodcoreS20::combat:checkShieldsS17::crafting:economyS20::guildstone:guildctlS20::champions:champcoreS24::eventcore:event_controlS20::happyhour:happyhourS13::jail:jailoutS15::mail:mail_ctrlS22::makrocheck:makrocheckS19::npcguilds:ngd_ctrlS19::reslogon:checkbansS23::reslogon:petsecurecoreS12::saver:saverS21::weather:startweather
+	CProp	GlCtrl_::sc a3:S9:StaffCorei1510982088i44
+	CProp	GlCtrl_::shardinfo a3:S9:ShardInfoi1510982088i45
+	CProp	GlCtrl_:champions:champcore a3:S13:Champion Corei1510982088i54
+	CProp	GlCtrl_:combat:checkShields a3:S12:CheckShieldsi0i0
+	CProp	GlCtrl_:crafting:economy a3:S13:Craft economyi1510982088i49
+	CProp	GlCtrl_:eventcore:event_control a3:S16:Kontrola eventowi1510982088i56
+	CProp	GlCtrl_:guildstone:guildctl a3:S10:Guild Ctrli1510982088i51
+	CProp	GlCtrl_:happyhour:happyhour a3:S9:HappyHouri1510982088i59
+	CProp	GlCtrl_:jail:jailout a3:S9:Jail Ctrli1510982088i61
+	CProp	GlCtrl_:magiceffects:npcmodcore a3:S10:NpcModCorei1510982088i46
+	CProp	GlCtrl_:mail:mail_ctrl a3:S12:Mail Controli1510982088i63
+	CProp	GlCtrl_:makrocheck:makrocheck a3:S11:Makro Checki1510982088i65
+	CProp	GlCtrl_:npcguilds:ngd_ctrl a3:S8:NGd Ctrli1510982088i67
+	CProp	GlCtrl_:reslogon:checkbans a3:S9:CheckBansi1510982088i69
+	CProp	GlCtrl_:reslogon:petsecurecore a3:S13:PetSecureCorei1510982088i71
+	CProp	GlCtrl_:saver:saver a3:S5:Saveri1510982088i73
+	CProp	GlCtrl_:weather:startweather a3:S7:Weatheri1510982088i75
+	CProp	JailedPersons d0:
+	CProp	NpcNews a1:t9:S5:Adderi2S7:Changeri2S5:Colori18S4:Datei1510980182S7:ExpTimei0S5:Flagsi0S2:Idi1S5:Linesa10:S0:S0:S0:S0:S0:S52:Smiecie sa smieciami. Od zawsze. I tacy zawsze beda!S0:S0:S0:S0:S4:Timei14428
+	CProp	NpcNewsId i1
+	CProp	TourneyProps a0:
+	CProp	WeatherState a4:a2:i2i27a2:i8i16a2:i4S6:BC0301a3:i0i0i16360
+	CProp	gameclock s16351
+	CProp	gmpages a0:
+	CProp	nextlockid i2
+}
+

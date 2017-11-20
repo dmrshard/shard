@@ -1,0 +1,170 @@
+#
+#  PCS.TXT: Player-Character Data
+#
+#  In addition to PC data, this also contains hair, beards, death shrouds,
+#  and backpacks, but not the contents of each backpack.
+#
+
+Character
+{
+	Account	qrak
+	CharIdx	0
+	Name	Qra'h
+	Serial	0x2
+	ObjType	0x29a
+	Graphic	0x190
+	Color	0x82f0
+	X	1627
+	Y	296
+	Z	63
+	Facing	4
+	Revision	2
+	Realm	ilshenar
+	CProp	At_Alchemy a2:i0i0
+	CProp	At_Anatomy a2:i8223i0
+	CProp	At_AnimalLore a2:i0i0
+	CProp	At_AnimalTaming a2:i0i0
+	CProp	At_Archery a2:i0i0
+	CProp	At_ArmsLore a2:i0i0
+	CProp	At_Axesmanship a2:i0i0
+	CProp	At_Barbarian a2:i0i0
+	CProp	At_Begging a2:i0i0
+	CProp	At_Blacksmithy a2:i0i0
+	CProp	At_Bowcraft a2:i0i0
+	CProp	At_Carpentry a2:i0i0
+	CProp	At_Cartography a2:i0i0
+	CProp	At_Cooking a2:i0i0
+	CProp	At_DetectingHidden a2:i0i0
+	CProp	At_Dexterity a2:i1074790400i0
+	CProp	At_Druid a2:i0i0
+	CProp	At_Enticement a2:i0i0
+	CProp	At_EvaluatingIntelligence a2:i0i0
+	CProp	At_Fanaticism a2:i0i0
+	CProp	At_Farming a2:i0i0
+	CProp	At_Fencing a2:i0i0
+	CProp	At_Fishing a2:i0i0
+	CProp	At_Healing a2:i8200i0
+	CProp	At_Herding a2:i0i0
+	CProp	At_Hiding a2:i0i0
+	CProp	At_Hunter a2:i0i0
+	CProp	At_Inscription a2:i0i0
+	CProp	At_Insight a2:i0i0
+	CProp	At_Intelligence a2:i1074790400i0
+	CProp	At_ItemId a2:i0i0
+	CProp	At_Kensai a2:i0i0
+	CProp	At_Lockpicking a2:i0i0
+	CProp	At_Lumberjacking a2:i0i0
+	CProp	At_Macefighting a2:i0i0
+	CProp	At_Magery a2:i0i0
+	CProp	At_MagicItemMaking a2:i0i0
+	CProp	At_MagicResistance a2:i0i0
+	CProp	At_Meditation a2:i0i0
+	CProp	At_Mining a2:i0i0
+	CProp	At_Musicianship a2:i0i0
+	CProp	At_Necromancy a2:i0i0
+	CProp	At_Paladinism a2:i0i0
+	CProp	At_Parry a2:i0i0
+	CProp	At_Peacemaking a2:i0i0
+	CProp	At_Poisoning a2:i0i0
+	CProp	At_Provocation a2:i0i0
+	CProp	At_Snooping a2:i0i0
+	CProp	At_SpiritSpeak a2:i0i0
+	CProp	At_Stealing a2:i0i0
+	CProp	At_Stealth a2:i0i0
+	CProp	At_Strength a2:i1074790400i0
+	CProp	At_Swordsmanship a2:i8200i0
+	CProp	At_Tactics a2:i8214i0
+	CProp	At_Tailoring a2:i0i0
+	CProp	At_Tinkering a2:i0i0
+	CProp	At_Tracking a2:i0i0
+	CProp	At_Vampire a2:i0i0
+	CProp	At_Veterinary a2:i0i0
+	CProp	At_Wearwolf a2:i0i0
+	CProp	At_Wrestling a2:i14i0
+	CProp	At_Zeal a2:i0i0
+	CProp	ChGold i0
+	CProp	CharData a2:S7:WarriorS4:gnom
+	CProp	CorpseSerial i1073746946
+	CProp	DeathCount i2
+	CProp	DeathTime i12973
+	CProp	Fame i0
+	CProp	HouseSers a0:
+	CProp	HungerDelay i3600
+	CProp	LastCraft_37 t3:S8:gumpTypei0S5:itersi1S7:objtypei0
+	CProp	LastHit i4
+	CProp	LastHungerTime i2
+	CProp	LastLog i14705
+	CProp	LastSkillUse a3:S7:Anatomyi1510978726S22:RP: 23 WA: 8200 SK: 30
+	CProp	LastTargUse a3:S4:Itemi1510980439S40:Ores Ser: 1073746970 Loc: 1623,262,78 il
+	CProp	MaxSkInSkWin i20
+	CProp	ModPrevAmt_55 i1
+	CProp	SkSum a2:i1200i0
+	CProp	SkillsInSkWin a0:
+	CProp	StSum i6000
+	CProp	TipsData t2:S7:Pendingd0:S6:Showedd0:
+	CProp	TipsEvents a5:i6i2i24i4i5
+	CProp	Young i14290
+	CProp	logontime i14701
+	CProp	nHunger i100
+	CProp	nProtein i100
+	CProp	nSugar i100
+	CProp	nVitamin i100
+	CProp	onlinetimer i5191
+	CmdLevel	test
+	Concealed	1
+	TrueColor	0x82f0
+	TrueObjtype	0x29a
+	Gender	0
+	Race	2
+	Strength	200
+	Intelligence	200
+	Dexterity	200
+	Anatomy	30
+	Healing	30
+	Tactics	30
+	Swordsmanship	30
+	Skillcap	800
+	Life	203
+	Mana	200
+	Stamina	200
+	Statcap	200
+	CreatedAt	112
+	TitleGuild	"Mlody"
+	TitleRace	"Valar"
+}
+
+Item
+{
+	Serial	0x400005a9
+	ObjType	0x203b
+	Graphic	0x203b
+	X	2303
+	Y	1599
+	Z	0
+	Facing	11
+	Revision	2
+	Realm	ilshenar
+	Layer	11
+	Movable	0
+	Container	0x2
+	DecayAt	5407
+}
+
+Item
+{
+	Serial	0x400002d3
+	ObjType	0xe75
+	Graphic	0xe75
+	X	0
+	Y	0
+	Z	0
+	Facing	21
+	Revision	38
+	Realm	ilshenar
+	CProp	Owner i2
+	Layer	21
+	Movable	0
+	Container	0x2
+	DecayAt	1312
+}
+

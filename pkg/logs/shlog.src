@@ -1,0 +1,33 @@
+//--------------------------------------------------------------------------------
+
+include "include/gumps";
+include "include/bits";
+include "include/log";
+include "include/cmds/uof";
+include "include/cmds/misc";
+include "include/logerror";
+include "include/tempmods";
+
+//--------------------------------------------------------------------------------
+
+program SpeedhackLog(Params)
+
+  var who    := Params[1];
+  var diffX  := Params[2];
+  var diffY  := Params[3];
+
+  if(!who)
+    return;
+  endif
+
+  var Packet := SendMwgCmd(who, CUOMW_CMD_PROC);
+                       
+  if(Packet)
+    var Num   := Packet.GetInt16(20);
+    var Procs := PcExtractProcInfo(Packet, Num);
+    LogMsg(SHPS_LOG,who,{diffX, diffY, Procs});
+  endif
+
+endprogram
+
+//--------------------------------------------------------------------------------
